@@ -67,13 +67,6 @@
 }
 
 
-/* Specific styles for different categories */
-.tourist-spots .category-image,
-.food-beverages .category-image,
-.hotels .category-image {
-  height: 250px; /* Adjust the height for different categories */
-}
-
 /* CultureHeritage styles */
 .culture-heritage {
   margin: 20px;
@@ -96,12 +89,16 @@
   display: flex;
   gap: 10px;
   margin-top: 20px;
+  margin-left: auto;  /* Center the image horizontally */
+  margin-right: auto; /* Center the image horizontally */
 }
 
 .culture-heritage-images img {
   width: 200px;
   height: 150px;
   border-radius: 8px;
+  margin-left: auto;  /* Center the image horizontally */
+  margin-right: auto; /* Center the image horizontally */
 }
 
 .culture-heritage-video {
@@ -136,12 +133,16 @@
   display: flex;
   gap: 10px;
   margin-top: 20px;
+  margin-left: auto;  /* Center the image horizontally */
+  margin-right: auto; /* Center the image horizontally */
 }
 
 .food-beverages-images img {
   width: 200px;
   height: 150px;
   border-radius: 8px;
+  margin-left: auto;  /* Center the image horizontally */
+  margin-right: auto; /* Center the image horizontally */
 }
 
 .food-beverages-video {
@@ -176,12 +177,16 @@
   display: flex;
   gap: 10px;
   margin-top: 20px;
+  margin-left: auto;  /* Center the image horizontally */
+  margin-right: auto; /* Center the image horizontally */
 }
 
 .hotels-images img {
   width: 200px;
   height: 150px;
   border-radius: 8px;
+  margin-left: auto;  /* Center the image horizontally */
+  margin-right: auto; /* Center the image horizontally */
 }
 
 .hotels-video {
@@ -216,12 +221,16 @@
   display: flex;
   gap: 10px;
   margin-top: 20px;
+  margin-left: auto;  /* Center the image horizontally */
+  margin-right: auto; /* Center the image horizontally */
 }
 
 .tourist-spots-images img {
   width: 200px;
   height: 150px;
   border-radius: 8px;
+  margin-left: auto;  /* Center the image horizontally */
+  margin-right: auto; /* Center the image horizontally */
 }
 
 .tourist-spots-video {
