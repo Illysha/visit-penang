@@ -16,7 +16,6 @@ function FoodBeverages() {
                     width="560"
                     height="315"
                     src="https://www.youtube.com/embed/6UKN1YpVweg"
-                    frameBorder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
                     title="Food & Beverages Video"

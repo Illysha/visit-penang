@@ -21,7 +21,7 @@ function TouristSpots() {
                     frameBorder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
-                    title="Food & Beverages Video"
+                    title="Tourist spots Video"
                 ></iframe>
             </div>
         </div>

@@ -19,11 +19,10 @@ function CultureHeritage() {
                     width="560"
                     height="315"
                     src="https://youtu.be/MDbZhLQaC4w?si=bgSYxT6wM9bEBfJL"
-                    frameBorder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
-                    title="Food & Beverages Video"
-            </iframe>
+                    title= "Culture and Heriatge Video"
+            ></iframe>
         </div>
 </div>
 )

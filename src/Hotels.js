@@ -18,8 +18,8 @@ function Hotels() {
                     frameBorder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
-                    title="Food & Beverages Video"
-                </iframe>
+                    title="Hotels Video"
+                ></iframe>
             </div>
         </div>
     );
