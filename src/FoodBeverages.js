@@ -12,7 +12,7 @@ function FoodBeverages() {
             </div>
             <div className="food-beverages-video">
                 <video controls>
-                <source src="path_to_food_video.mp4" type="video/mp4" />
+                <source src="https://youtu.be/6UKN1YpVweg?si=y-TfOdARAChvTrNd" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
             </div>
