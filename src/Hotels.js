@@ -11,10 +11,15 @@ function Hotels() {
                 <img src="https://i.pinimg.com/236x/6d/1b/f5/6d1bf5551da2ed3cc0e1101d8630b1ee.jpg" alt="Hotel 2"/>
             </div>
             <div className="hotels-video">
-                <video controls>
-                    <source src="path_to_hotel_video.mp4" type="video/mp4" />
-                    Your browser does not support the video tag.
-                </video>
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://youtu.be/RNbLVFG2pSc?si=YbeIDb7FlthdCkCJ"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    title="Food & Beverages Video"
+                </iframe>
             </div>
         </div>
     );

@@ -12,11 +12,17 @@ function TouristSpots() {
                 <img src="https://i.pinimg.com/236x/6d/be/6f/6dbe6f2bf57010a7020f7d24b50ac154.jpg"
                      alt="Tourist Spot 2"/>
             </div>
+            {/* Embed YouTube video */}
             <div className="tourist-spots-video">
-                <video controls>
-                    <source src="path_to_spot_video.mp4" type="video/mp4" />
-                    Your browser does not support the video tag.
-                </video>
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://youtu.be/3KCOgVq-lCs?si=yPf4gd-PYjSJ4SEf"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    title="Food & Beverages Video"
+                ></iframe>
             </div>
         </div>
     );
