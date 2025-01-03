@@ -13,11 +13,11 @@ function App() {
                 <h1>Visit Penang</h1>
                 <p>Explore the best of Penang: tourist spots, food, hotels, culture and heritage!</p>
             </header>
-            <AboutUs /> {/* Add the About Us section here */}
             <TouristSpots />
             <FoodBeverages />
             <Hotels />
             <CultureHeritage />
+            <AboutUs /> {/* Add the About Us section here */}
         </div>
     );
 }
