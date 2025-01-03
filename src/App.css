@@ -230,4 +230,26 @@
   border-radius: 8px;
 }
 
+.about-us {
+  margin: 20px;
+  padding: 20px;
+  background-color: #4a0c48; /* Light orange background */
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+.about-us h2 {
+  font-size: 24px;
+  color: #d84315; /* Deep orange color for the heading */
+  margin-bottom: 15px;
+}
+
+.about-us p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto; /* Center the text */
+}
 
