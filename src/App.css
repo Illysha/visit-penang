@@ -1,0 +1,254 @@
+.App {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #f8bbd0; /* Soft pink */
+  background-image: url('https://www.cuticuti-malaysia.com/wp-content/uploads/2018/12/penang.jpg'); /* Add your image URL here */
+  background-size: cover; /* Ensures the image covers the entire header */
+  background-position: center; /* Centers the image */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Common styles for all categories */
+.category {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.category h2 {
+  color: #2e3d49;
+}
+
+.category .category-image {
+  width: 100%;
+  height: 200px;  /* Set a fixed height for the image */
+  object-fit: cover; /* Ensures the image covers the area without distorting */
+  border-radius: 8px;
+  margin-bottom: 15px; /* Adds some space below the image */
+}
+
+/* Specific styles for different categories */
+.tourist-spots .category-image {
+  height: 250px; /* You can adjust the height for different categories */
+}
+
+.food-beverages .category-image {
+  height: 250px; /* Adjust for food and beverages */
+}
+
+.hotels .category-image {
+  height: 250px; /* Adjust for hotels */
+}
+
+/* CultureHeritage styles */
+.culture-heritage {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+}
+
+.culture-heritage h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.culture-heritage p {
+  font-size: 16px;
+  color: #666;
+}
+
+.culture-heritage-images {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.culture-heritage-images img {
+  width: 200px;
+  height: 150px;
+  border-radius: 8px;
+}
+
+.culture-heritage-video {
+  margin-top: 20px;
+}
+
+.culture-heritage-video video {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+}
+
+/* FoodBeverages styles */
+.food-beverages {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f1f8e9;
+  border-radius: 8px;
+}
+
+.food-beverages h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.food-beverages p {
+  font-size: 16px;
+  color: #666;
+}
+
+.food-beverages-images {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.food-beverages-images img {
+  width: 200px;
+  height: 150px;
+  border-radius: 8px;
+}
+
+.food-beverages-video {
+  margin-top: 20px;
+}
+
+.food-beverages-video video {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+}
+
+/* Hotels styles */
+.hotels {
+  margin: 20px;
+  padding: 20px;
+  background-color: #e0f7fa;
+  border-radius: 8px;
+}
+
+.hotels h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.hotels p {
+  font-size: 16px;
+  color: #666;
+}
+
+.hotels-images {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.hotels-images img {
+  width: 200px;
+  height: 150px;
+  border-radius: 8px;
+}
+
+.hotels-video {
+  margin-top: 20px;
+}
+
+.hotels-video video {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+}
+
+/* TouristSpots styles */
+.tourist-spots {
+  margin: 20px;
+  padding: 20px;
+  background-color: #e1bee7;
+  border-radius: 8px;
+}
+
+.tourist-spots h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.tourist-spots p {
+  font-size: 16px;
+  color: #666;
+}
+
+.tourist-spots-images {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.tourist-spots-images img {
+  width: 200px;
+  height: 150px;
+  border-radius: 8px;
+}
+
+.tourist-spots-video {
+  margin-top: 20px;
+}
+
+.tourist-spots-video video {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+}
+
+.about-us {
+  margin: 20px;
+  padding: 20px;
+  background-color: #ffe0b2; /* Light orange background */
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+.about-us h2 {
+  font-size: 24px;
+  color: #d84315; /* Deep orange color for the heading */
+  margin-bottom: 15px;
+}
+
+.about-us p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto; /* Center the text */
+}
