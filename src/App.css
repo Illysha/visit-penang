@@ -1,3 +1,4 @@
+/* Default styles for larger screens (desktop) */
 .App {
   font-family: 'Poppins', sans-serif;
   text-align: center;
@@ -16,9 +17,9 @@
 
 .App-header {
   background-color: #f8bbd0; /* Soft pink */
-  background-image: url('https://www.cuticuti-malaysia.com/wp-content/uploads/2018/12/penang.jpg'); /* Add your image URL here */
-  background-size: cover; /* Ensures the image covers the entire header */
-  background-position: center; /* Centers the image */
+  background-image: url('https://www.cuticuti-malaysia.com/wp-content/uploads/2018/12/penang.jpg');
+  background-size: cover;
+  background-position: center;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -58,16 +59,10 @@
 }
 
 /* Specific styles for different categories */
-.tourist-spots .category-image {
-  height: 250px; /* You can adjust the height for different categories */
-}
-
-.food-beverages .category-image {
-  height: 250px; /* Adjust for food and beverages */
-}
-
+.tourist-spots .category-image,
+.food-beverages .category-image,
 .hotels .category-image {
-  height: 250px; /* Adjust for hotels */
+  height: 250px; /* Adjust the height for different categories */
 }
 
 /* CultureHeritage styles */
@@ -112,8 +107,8 @@
 
 /* FoodBeverages styles */
 .food-beverages {
-  margin: 10px;
-  padding: 15px;
+  margin: 20px;
+  padding: 20px;
   background-color: #f1f8e9;
   border-radius: 8px;
 }
@@ -233,15 +228,15 @@
 .about-us {
   margin: 20px;
   padding: 20px;
-  background-color: #d5b5d3; /* Light orange background */
+  background-color: #d5b5d3;
   border-radius: 8px;
   text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .about-us h2 {
   font-size: 24px;
-  color: white; /* Deep orange color for the heading */
+  color: white;
   margin-bottom: 15px;
 }
 
@@ -250,6 +245,66 @@
   color: white;
   line-height: 1.6;
   max-width: 800px;
-  margin: 0 auto; /* Center the text */
+  margin: 0 auto;
 }
 
+/* Mobile and tablet-specific styles */
+@media (max-width: 768px) {
+  .App-header {
+    font-size: calc(12px + 4vmin);  /* Adjust font size for smaller screens */
+    padding: 10px;
+  }
+
+  .category {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .category .category-image {
+    height: 150px;  /* Adjust image height for smaller screens */
+  }
+
+  /* Ensure content doesn't overlap or break */
+  .culture-heritage-images,
+  .food-beverages-images,
+  .hotels-images,
+  .tourist-spots-images {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .culture-heritage-images img,
+  .food-beverages-images img,
+  .hotels-images img,
+  .tourist-spots-images img {
+    width: 100%;  /* Ensure images are responsive */
+    height: auto;  /* Maintain aspect ratio */
+    margin-bottom: 10px;
+  }
+
+  .about-us {
+    font-size: 14px;  /* Reduce text size on mobile */
+    padding: 10px;
+  }
+}
+
+/* Styles for extra small screens (portrait phones) */
+@media (max-width: 480px) {
+  .App-header {
+    font-size: calc(14px + 4vmin);
+  }
+
+  .category {
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .category .category-image {
+    height: 120px;  /* Adjust image height further on very small screens */
+  }
+
+  .about-us {
+    font-size: 12px;
+    padding: 5px;
+  }
+}
