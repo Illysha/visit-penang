@@ -16,14 +16,14 @@ function App() {
                     <h1>Visit Penang</h1>
                     <p>Explore the best of Penang: tourist spots, food, hotels, culture and heritage!</p>
                 </header>
-                <Switch> {/* Use Switch to ensure only one route is matched */}
+                <Routes> {/* Use Switch to ensure only one route is matched */}
                     <Route exact path="/" component={TouristSpots} /> {/* Main tourist spots page */}
                     <Route path="/tourist-spot/:id" component={TouristSpotDescription} /> {/* Dynamic route for tourist spot descriptions */}
                     <Route path="/food-beverages" component={FoodBeverages} /> {/* Food and beverages page */}
                     <Route path="/hotels" component={Hotels} /> {/* Hotels page */}
                     <Route path="/culture-heritage" component={CultureHeritage} /> {/* Culture and heritage page */}
                     <Route path="/about-us" component={AboutUs} /> {/* About Us page */}
-                </Switch>
+                </Routes>
             </div>
         </Router>
     );
