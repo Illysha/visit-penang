@@ -7,7 +7,7 @@ import Hotels from './Hotels';
 import CultureHeritage from './CultureHeritage';
 import AboutUs from './AboutUs';
 
-import './styles.css'; // Import your CSS styles
+import './App.css'; // Import your CSS styles
 
 function App() {
     return (
