@@ -1,3 +1,4 @@
+* Default styles for larger screens (desktop) */
 .App {
   font-family: 'DM Serif Text', sans-serif;
   text-align: center;
@@ -45,9 +46,9 @@
   border-radius: 8px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+  text-align: center; /* Ensure text inside is also centered */
 }
 
 .category h2 {
@@ -56,13 +57,13 @@
 
 .category .category-image {
   width: 100%;
-  height: 200px;
-  object-fit: cover;
+  height: 200px;  /* Set a fixed height for the image */
+  object-fit: cover; /* Ensures the image covers the area without distorting */
   border-radius: 8px;
   margin-bottom: 15px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  display: block; /* Make sure the image is treated as a block element */
+  margin-left: auto;  /* Center the image horizontally */
+  margin-right: auto; /* Center the image horizontally */
 }
 
 /* CultureHeritage styles */
@@ -87,7 +88,7 @@
   display: flex;
   gap: 10px;
   margin-top: 20px;
-  justify-content: center;
+  justify-content: center;  /* Center the images horizontally */
 }
 
 .culture-heritage-images img {
@@ -128,7 +129,7 @@
   display: flex;
   gap: 10px;
   margin-top: 20px;
-  justify-content: center;
+  justify-content: center;  /* Center the images horizontally */
 }
 
 .food-beverages-images img {
@@ -169,7 +170,7 @@
   display: flex;
   gap: 10px;
   margin-top: 20px;
-  justify-content: center;
+  justify-content: center;  /* Center the images horizontally */
 }
 
 .hotels-images img {
@@ -210,7 +211,7 @@
   display: flex;
   gap: 10px;
   margin-top: 20px;
-  justify-content: center;
+  justify-content: center;  /* Center the images horizontally */
 }
 
 .tourist-spots-images img {
@@ -252,116 +253,124 @@
   margin: 0 auto;
 }
 
-/* Additional Styles and Features */
-/* Hover Effects for Links */
-a {
-  color: #008080;
-  text-decoration: none;
-  transition: color 0.3s, background-color 0.3s;
-}
-
-a:hover {
-  color: white;
-  background-color: #005f5f;
-  border-radius: 5px;
-}
-
-/* Back-to-Top Button */
-.back-to-top {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: #008080;
-  color: white;
-  border: none;
-  padding: 10px 15px;
-  border-radius: 50%;
-  cursor: pointer;
-  display: none;
-  z-index: 1000;
-}
-
-.back-to-top:hover {
-  background-color: #005f5f;
-}
-
-/* Preloader Animation */
-.preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #008080;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1001;
-}
-
-.preloader .spinner {
-  border: 5px solid #f3f3f3;
-  border-top: 5px solid #005f5f;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  animation: spin 1s linear infinite;
-}
-
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-/* Ensure videos are the same size as images on extra small screens */
-.culture-heritage-video iframe,
-.food-beverages-video iframe,
-.hotels-video iframe,
-.tourist-spots-video iframe {
-  width: 100%;
-  height: 120px;  /* Match video height to image height */
-  border-radius: 8px;
-}
-
-.about-us {
-  font-size: 12px;
-  padding: 5px;
-}
-/* Tourist Spot Description styles */
-.tourist-spot-description {
-  margin: 20px;
-  padding: 20px;
-  background-color: #f9f9f9;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
-
-.tourist-spot-description h2 {
-  font-size: 1.8rem;
-  color: #2e3d49;
-  margin-bottom: 15px;
-}
-
-.tourist-spot-description p {
-  font-size: 16px;
-  color: #666;
-  line-height: 1.6;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-/* Responsive Styles for Tourist Spot Description */
+/* Mobile and tablet-specific styles */
 @media (max-width: 768px) {
-  .tourist-spot-description h2 {
-    font-size: 1.5rem;
+  .App-header {
+    font-size: calc(12px + 4vmin);  /* Adjust font size for smaller screens */
+    padding: 10px;
   }
 
-  .tourist-spot-description p {
-    font-size: 14px;
+  .category {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .category .category-image {
+    height: 150px;  /* Adjust image height for smaller screens */
+  }
+
+  /* Ensure content doesn't overlap or break */
+  .culture-heritage-images,
+  .food-beverages-images,
+  .hotels-images,
+  .tourist-spots-images {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center content horizontally */
+  }
+
+  .culture-heritage-images img,
+  .food-beverages-images img,
+  .hotels-images img,
+  .tourist-spots-images img {
+    width: 100%;  /* Ensure images are responsive */
+    height: auto;  /* Maintain aspect ratio */
+    margin-bottom: 10px;
+  }
+
+  .about-us {
+    font-size: 14px;  /* Reduce text size on mobile */
+    padding: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .App-header {
+    font-size: calc(12px + 4vmin);  /* Adjust font size for smaller screens */
+    padding: 10px;
+  }
+
+  .category {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .category .category-image {
+    height: 150px;  /* Adjust image height for smaller screens */
+  }
+
+  /* Ensure content doesn't overlap or break */
+  .culture-heritage-images,
+  .food-beverages-images,
+  .hotels-images,
+  .tourist-spots-images {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center content horizontally */
+  }
+
+  .culture-heritage-images img,
+  .food-beverages-images img,
+  .hotels-images img,
+  .tourist-spots-images img {
+    width: 100%;  /* Ensure images are responsive */
+    height: auto;  /* Maintain aspect ratio */
+    margin-bottom: 10px;
+  }
+
+  /* Ensure videos are the same size as images */
+  .culture-heritage-video iframe,
+  .food-beverages-video iframe,
+  .hotels-video iframe,
+  .tourist-spots-video iframe {
+    width: 100%;
+    height: 150px;  /* Match video height to image height */
+    border-radius: 8px;
+  }
+
+  .about-us {
+    font-size: 14px;  /* Reduce text size on mobile */
+    padding: 10px;
+  }
+}
+
+/* Styles for extra small screens (portrait phones) */
+@media (max-width: 480px) {
+  .App-header {
+    font-size: calc(14px + 4vmin);
+  }
+
+  .category {
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .category .category-image {
+    height: 120px;  /* Adjust image height further on very small screens */
+  }
+
+  /* Ensure videos are the same size as images on extra small screens */
+  .culture-heritage-video iframe,
+  .food-beverages-video iframe,
+  .hotels-video iframe,
+  .tourist-spots-video iframe {
+    width: 100%;
+    height: 120px;  /* Match video height to image height */
+    border-radius: 8px;
+  }
+
+  .about-us {
+    font-size: 12px;
+    padding: 5px;
   }
 }
