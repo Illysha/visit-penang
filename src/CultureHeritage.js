@@ -12,11 +12,14 @@ function CultureHeritage() {
     return (
         <div className="culture-heritage">
             <h2>Culture Heritage</h2>
-            <p>Explore the rich cultural heritage of Penang through its monuments, museums, and historical landmarks.</p>
+            <p>Explore the rich cultural heritage of Penang through its monuments, museums, and historical
+                landmarks.</p>
             {/* Add images for this category */}
             <div className="culture-heritage-images">
-                <img src="https://i.pinimg.com/236x/3b/94/54/3b9454bc687faa9c5bb61e228e8de3b5.jpg" alt="Heritage Site 1"/>
-                <img src="https://i.pinimg.com/236x/35/b6/ac/35b6ac17a57667952c09270a19f2038e.jpg" alt="Heritage Site 2"/>
+                <img src="https://i.pinimg.com/236x/3b/94/54/3b9454bc687faa9c5bb61e228e8de3b5.jpg"
+                     alt="Heritage Site 1"/>
+                <img src="https://i.pinimg.com/236x/35/b6/ac/35b6ac17a57667952c09270a19f2038e.jpg"
+                     alt="Heritage Site 2"/>
             </div>
             {/* Embed YouTube video */}
             <div className="culture-heritage-video">
@@ -30,6 +33,7 @@ function CultureHeritage() {
                     title="Culture and Heritage Video"
                 ></iframe>
             </div>
+            <button onClick={handleBackToHome} className="link">Back to Home</button>
         </div>
     );
 }

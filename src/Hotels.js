@@ -11,7 +11,8 @@ function Hotels() {
     return (
         <div className="hotels">
             <h2>Hotels</h2>
-            <p>Find the perfect accommodation in Penang, whether you're looking for luxury or budget-friendly options.</p>
+            <p>Find the perfect accommodation in Penang, whether you're looking for luxury or budget-friendly
+                options.</p>
             {/* Add images for this category */}
             <div className="hotels-images">
                 <img src="https://i.pinimg.com/236x/b8/f6/62/b8f662baf6026fa74964ee771a0378d5.jpg" alt="Hotel 1"/>
@@ -29,6 +30,7 @@ function Hotels() {
                     title="Hotels Video"
                 ></iframe>
             </div>
+            <button onClick={handleBackToHome} className="link">Back to Home</button>
         </div>
     );
 }

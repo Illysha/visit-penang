@@ -29,6 +29,7 @@ function FoodBeverages() {
                     title="Food & Beverages Video"
                 ></iframe>
             </div>
+            <button onClick={handleBackToHome} className="link">Back to Home</button>
         </div>
     );
 }
