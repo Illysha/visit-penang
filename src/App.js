@@ -1,6 +1,6 @@
 
 import React from 'react';
- // Use Routes instead of Switch
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Use Routes instead of Switch
 import TouristSpots from './TouristSpots';
 import FoodBeverages from './FoodBeverages';
 import Hotels from './Hotels';
