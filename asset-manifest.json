@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/visit-penang/static/css/main.2e923ae0.css",
-    "main.js": "/visit-penang/static/js/main.b75171ec.js",
+    "main.css": "/visit-penang/static/css/main.574612df.css",
+    "main.js": "/visit-penang/static/js/main.baf83d02.js",
     "static/js/151.2145a031.chunk.js": "/visit-penang/static/js/151.2145a031.chunk.js",
     "index.html": "/visit-penang/index.html",
-    "main.2e923ae0.css.map": "/visit-penang/static/css/main.2e923ae0.css.map",
-    "main.b75171ec.js.map": "/visit-penang/static/js/main.b75171ec.js.map",
+    "main.574612df.css.map": "/visit-penang/static/css/main.574612df.css.map",
+    "main.baf83d02.js.map": "/visit-penang/static/js/main.baf83d02.js.map",
     "151.2145a031.chunk.js.map": "/visit-penang/static/js/151.2145a031.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e923ae0.css",
-    "static/js/main.b75171ec.js"
+    "static/css/main.574612df.css",
+    "static/js/main.baf83d02.js"
   ]
 }
