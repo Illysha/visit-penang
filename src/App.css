@@ -331,3 +331,37 @@ a:hover {
   font-size: 12px;
   padding: 5px;
 }
+/* Tourist Spot Description styles */
+.tourist-spot-description {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.tourist-spot-description h2 {
+  font-size: 1.8rem;
+  color: #2e3d49;
+  margin-bottom: 15px;
+}
+
+.tourist-spot-description p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Responsive Styles for Tourist Spot Description */
+@media (max-width: 768px) {
+  .tourist-spot-description h2 {
+    font-size: 1.5rem;
+  }
+
+  .tourist-spot-description p {
+    font-size: 14px;
+  }
+}
