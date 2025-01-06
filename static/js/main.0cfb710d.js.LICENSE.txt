@@ -1,15 +1,5 @@
 /**
  * @license React
- * react-dom-client.production.js
- *
- * Copyright (c) Meta Platforms, Inc. and affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-/**
- * @license React
  * react-dom.production.js
  *
  * Copyright (c) Meta Platforms, Inc. and affiliates.
@@ -39,17 +29,18 @@
  */
 
 /**
- * @license React
- * scheduler.production.js
+ * @remix-run/router v1.21.0
  *
- * Copyright (c) Meta Platforms, Inc. and affiliates.
+ * Copyright (c) Remix Software Inc.
  *
  * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
+ * LICENSE.md file in the root directory of this source tree.
+ *
+ * @license MIT
  */
 
 /**
- * react-router v7.1.1
+ * React Router v6.28.1
  *
  * Copyright (c) Remix Software Inc.
  *
