@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';  // Import Router and Route components
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';  // Import Router and Route components
 import TouristSpots from './TouristSpots';
 import FoodBeverages from './FoodBeverages';
 import Hotels from './Hotels';
