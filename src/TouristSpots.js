@@ -1,61 +1,60 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { useNavigate } from 'react-router-dom'; // Import useNavigate for navigation
 
 function TouristSpots() {
-    const [modalInfo, setModalInfo] = useState(null);
+    const navigate = useNavigate(); // Hook to programmatically navigate
 
-    const imageData = [
+    const images = [
         {
+            id: 1,
             src: "https://i.pinimg.com/236x/89/69/b4/8969b4030e55d439a8ea89b4ca76f12a.jpg",
-            alt: "George Town Street Art",
-            description: "George Town is known for its vibrant street art, featuring murals and graffiti that tell the story of Penang's culture and history.",
+            alt: "Tourist Spot 1",
+            description: "This is a beautiful tourist spot known for its scenic views and cultural heritage."
         },
         {
+            id: 2,
             src: "https://i.pinimg.com/236x/6d/be/6f/6dbe6f2bf57010a7020f7d24b50ac154.jpg",
-            alt: "Kek Lok Si Temple",
-            description: "Kek Lok Si Temple is one of the largest Buddhist temples in Southeast Asia, located in the hills of Penang.",
-        },
+            alt: "Tourist Spot 2",
+            description: "A vibrant location filled with activities, perfect for family outings."
+        }
     ];
 
-    const handleImageClick = (image) => {
-        setModalInfo(image);
-    };
-
-    const closeModal = () => {
-        setModalInfo(null);
+    // Function to handle image click and navigate to description page
+    const handleImageClick = (id) => {
+        navigate(`/description/${id}`); // Navigate to description page with the ID
     };
 
     return (
         <div className="tourist-spots">
             <h2>Tourist Spots</h2>
             <p>Explore the most popular and scenic tourist destinations in Penang.</p>
+            {/* Render images dynamically */}
             <div className="tourist-spots-images">
-                {imageData.map((image, index) => (
-                    <figure key={index}>
-                        <img
-                            src={image.src}
-                            alt={image.alt}
-                            className="image-with-caption"
-                            onClick={() => handleImageClick(image)}
-                            style={{ cursor: 'pointer' }}
-                        />
+                {images.map((image) => (
+                    <figure
+                        key={image.id}
+                        onClick={() => handleImageClick(image.id)} // Add click handler
+                        style={{ cursor: 'pointer' }}
+                    >
+                        <img src={image.src} alt={image.alt} />
                         <figcaption>{image.alt}</figcaption>
                     </figure>
                 ))}
             </div>
-
-            {modalInfo && (
-                <div className="modal-overlay" onClick={closeModal}>
-                    <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-                        <h3>{modalInfo.alt}</h3>
-                        <p>{modalInfo.description}</p>
-                        <button onClick={closeModal}>Close</button>
-                    </div>
-                </div>
-            )}
+            {/* Embed YouTube video */}
+            <div className="tourist-spots-video">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/3KCOgVq-lCs"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    title="Tourist spots Video"
+                ></iframe>
+            </div>
         </div>
     );
 }
 
 export default TouristSpots;
-
-

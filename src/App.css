@@ -193,6 +193,32 @@
   }
 }
 
+.image-description {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-description h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.image-description img {
+  margin: 20px 0;
+  max-width: 90%;
+  border-radius: 8px;
+}
+
+.image-description p {
+  font-size: 16px;
+  color: #555;
+}
+
+
 /* Styles for extra small screens (portrait phones) */
 @media (max-width: 480px) {
   .App-header {
