@@ -29,7 +29,6 @@ function App() {
                 </header>
                 {/* Routing to different pages */}
                 <Routes>
-                    <Route path="/" element={<HomePage />} />
                     <Route path="/tourist-spots" element={<TouristSpots />} />
                     <Route path="/food-beverages" element={<FoodBeverages />} />
                     <Route path="/hotels" element={<Hotels />} />
