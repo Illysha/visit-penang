@@ -1,13 +1,13 @@
 
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Use Routes instead of Switch
 import TouristSpots from './TouristSpots';
 import FoodBeverages from './FoodBeverages';
 import Hotels from './Hotels';
 import CultureHeritage from './CultureHeritage';
 import AboutUs from './AboutUs';
 
-import './App.css'; // Import your CSS styles
+import './styles.css'; // Import your CSS styles
 
 function App() {
     return (
@@ -19,34 +19,14 @@ function App() {
                 </header>
 
                 {/* Add navigation for different sections */}
-                <Switch>
-                    <Route path="/" exact>
-                        <div className="home">
-                            <h2>Home Page</h2>
-                            <p>Welcome to the best places to visit in Penang!</p>
-                        </div>
-                    </Route>
-
-                    <Route path="/tourist-spots">
-                        <TouristSpots />
-                    </Route>
-
-                    <Route path="/food-beverages">
-                        <FoodBeverages />
-                    </Route>
-
-                    <Route path="/hotels">
-                        <Hotels />
-                    </Route>
-
-                    <Route path="/culture-heritage">
-                        <CultureHeritage />
-                    </Route>
-
-                    <Route path="/about-us">
-                        <AboutUs />
-                    </Route>
-                </Switch>
+                <Routes>  {/* Use Routes here instead of Switch */}
+                    <Route path="/" element={<div className="home"><h2>Home Page</h2><p>Welcome to the best places to visit in Penang!</p></div>} />
+                    <Route path="/tourist-spots" element={<TouristSpots />} />
+                    <Route path="/food-beverages" element={<FoodBeverages />} />
+                    <Route path="/hotels" element={<Hotels />} />
+                    <Route path="/culture-heritage" element={<CultureHeritage />} />
+                    <Route path="/about-us" element={<AboutUs />} />
+                </Routes>
             </div>
         </Router>
     );
