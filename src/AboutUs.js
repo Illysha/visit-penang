@@ -1,15 +1,8 @@
 // src/components/AboutUs.js
 import React from 'react';
-import { useNavigate } from 'react-router-dom'; // Import useNavigate
+
 
 function AboutUs() {
-    const navigate = useNavigate(); // useNavigate hook to navigate programmatically
-
-    // Handle the back to home navigation
-    const handleBackToHome = () => {
-        navigate('/'); // Navigate to the home page ("/")
-    };
-
     return (
         <div className="about-us">
             <h2>About Us</h2>
@@ -22,7 +15,6 @@ function AboutUs() {
                 Penang
                 has to offer!
             </p>
-            <button onClick={handleBackToHome} className="link">Back to Home</button>
         </div>
     );
 }

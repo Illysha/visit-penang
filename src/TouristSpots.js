@@ -1,13 +1,7 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+
 
 function TouristSpots() {
-    const navigate = useNavigate();
-
-    const handleBackToHome = () => {
-        navigate('/'); // Navigate to the home page ("/")
-    };
-
     return (
         <div className="tourist-spots">
             <h2>Tourist Spots</h2>
@@ -31,7 +25,6 @@ function TouristSpots() {
                     title="Tourist spots Video"
                 ></iframe>
             </div>
-            <button onClick={handleBackToHome} className="link">Back to Home</button>
         </div>
     );
 }

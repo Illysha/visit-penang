@@ -1,14 +1,7 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom'; // Import useNavigate
+
 
 function CultureHeritage() {
-    const navigate = useNavigate(); // useNavigate hook to navigate programmatically
-
-    // Handle the back to home navigation
-    const handleBackToHome = () => {
-        navigate('/'); // Navigate to the home page ("/")
-    };
-
     return (
         <div className="culture-heritage">
             <h2>Culture Heritage</h2>
@@ -33,7 +26,6 @@ function CultureHeritage() {
                     title="Culture and Heritage Video"
                 ></iframe>
             </div>
-            <button onClick={handleBackToHome} className="link">Back to Home</button>
         </div>
     );
 }
