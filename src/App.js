@@ -1,11 +1,11 @@
 
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import TouristSpots from 'TouristSpots';
-import FoodBeverages from 'FoodBeverages';
-import Hotels from 'Hotels';
-import CultureHeritage from 'CultureHeritage';
-import AboutUs from 'AboutUs';
+import TouristSpots from './TouristSpots';
+import FoodBeverages from './FoodBeverages';
+import Hotels from './Hotels';
+import CultureHeritage from './CultureHeritage';
+import AboutUs from './AboutUs';
 
 import './App.css'; // Import your CSS styles
 
