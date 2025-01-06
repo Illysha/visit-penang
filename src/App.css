@@ -1,4 +1,4 @@
-/* Default styles for larger screens (desktop) */
+* Default styles for larger screens (desktop) */
 .App {
   font-family: 'DM Serif Text', sans-serif;
   text-align: center;
@@ -46,9 +46,9 @@
   border-radius: 8px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+  text-align: center; /* Ensure text inside is also centered */
 }
 
 .category h2 {
@@ -57,13 +57,136 @@
 
 .category .category-image {
   width: 100%;
-  height: 200px;
-  object-fit: cover;
+  height: 200px;  /* Set a fixed height for the image */
+  object-fit: cover; /* Ensures the image covers the area without distorting */
   border-radius: 8px;
   margin-bottom: 15px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  display: block; /* Make sure the image is treated as a block element */
+  margin-left: auto;  /* Center the image horizontally */
+  margin-right: auto; /* Center the image horizontally */
+}
+
+/* CultureHeritage styles */
+.culture-heritage {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+}
+
+.culture-heritage h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.culture-heritage p {
+  font-size: 16px;
+  color: #666;
+}
+
+.culture-heritage-images {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  justify-content: center;  /* Center the images horizontally */
+}
+
+.culture-heritage-images img {
+  width: 200px;
+  height: 150px;
+  border-radius: 8px;
+}
+
+.culture-heritage-video {
+  margin-top: 20px;
+}
+
+.culture-heritage-video video {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+}
+
+/* FoodBeverages styles */
+.food-beverages {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f1f8e9;
+  border-radius: 8px;
+}
+
+.food-beverages h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.food-beverages p {
+  font-size: 16px;
+  color: #666;
+}
+
+.food-beverages-images {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  justify-content: center;  /* Center the images horizontally */
+}
+
+.food-beverages-images img {
+  width: 200px;
+  height: 150px;
+  border-radius: 8px;
+}
+
+.food-beverages-video {
+  margin-top: 20px;
+}
+
+.food-beverages-video video {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+}
+
+/* Hotels styles */
+.hotels {
+  margin: 20px;
+  padding: 20px;
+  background-color: #e0f7fa;
+  border-radius: 8px;
+}
+
+.hotels h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.hotels p {
+  font-size: 16px;
+  color: #666;
+}
+
+.hotels-images {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  justify-content: center;  /* Center the images horizontally */
+}
+
+.hotels-images img {
+  width: 200px;
+  height: 150px;
+  border-radius: 8px;
+}
+
+.hotels-video {
+  margin-top: 20px;
+}
+
+.hotels-video video {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
 }
 
 /* TouristSpots styles */
@@ -88,78 +211,52 @@
   display: flex;
   gap: 10px;
   margin-top: 20px;
-  justify-content: center;
-}
-
-.tourist-spots-images figure {
-  text-align: center;
-  margin: 10px;
+  justify-content: center;  /* Center the images horizontally */
 }
 
 .tourist-spots-images img {
-  display: block;
-  max-width: 100%;
+  width: 200px;
+  height: 150px;
   border-radius: 8px;
-  cursor: pointer;
 }
 
-.tourist-spots-images figcaption {
-  font-size: 14px;
-  color: #555;
-  margin-top: 5px;
-}
-
-/* Modal styles */
-.modal-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.7);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 1000;
-}
-
-.modal-content {
-  background: white;
-  padding: 20px;
-  border-radius: 8px;
-  max-width: 500px;
-  width: 90%;
-  text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.modal-content h3 {
-  margin: 0 0 10px;
-}
-
-.modal-content p {
-  font-size: 16px;
-  color: #555;
-}
-
-.modal-content button {
+.tourist-spots-video {
   margin-top: 20px;
-  padding: 10px 20px;
-  background-color: #f8bbd0; /* Soft pink */
-  border: none;
-  color: white;
-  border-radius: 4px;
-  cursor: pointer;
 }
 
-.modal-content button:hover {
-  background-color: #f48fb1; /* Darker pink */
+.tourist-spots-video video {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+}
+
+.about-us {
+  margin: 20px;
+  padding: 20px;
+  background-color: #d5b5d3;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-us h2 {
+  font-size: 24px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.about-us p {
+  font-size: 16px;
+  color: white;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 /* Mobile and tablet-specific styles */
 @media (max-width: 768px) {
   .App-header {
-    font-size: calc(12px + 4vmin);
+    font-size: calc(12px + 4vmin);  /* Adjust font size for smaller screens */
     padding: 10px;
   }
 
@@ -169,55 +266,83 @@
   }
 
   .category .category-image {
-    height: 150px;
+    height: 150px;  /* Adjust image height for smaller screens */
   }
 
+  /* Ensure content doesn't overlap or break */
+  .culture-heritage-images,
+  .food-beverages-images,
+  .hotels-images,
   .tourist-spots-images {
     flex-direction: column;
     align-items: center;
+    justify-content: center; /* Center content horizontally */
   }
 
+  .culture-heritage-images img,
+  .food-beverages-images img,
+  .hotels-images img,
   .tourist-spots-images img {
-    width: 100%;
-    height: auto;
+    width: 100%;  /* Ensure images are responsive */
+    height: auto;  /* Maintain aspect ratio */
     margin-bottom: 10px;
   }
 
-  .modal-content {
-    max-width: 90%;
-    padding: 15px;
+  .about-us {
+    font-size: 14px;  /* Reduce text size on mobile */
+    padding: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .App-header {
+    font-size: calc(12px + 4vmin);  /* Adjust font size for smaller screens */
+    padding: 10px;
   }
 
-  .modal-content button {
+  .category {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .category .category-image {
+    height: 150px;  /* Adjust image height for smaller screens */
+  }
+
+  /* Ensure content doesn't overlap or break */
+  .culture-heritage-images,
+  .food-beverages-images,
+  .hotels-images,
+  .tourist-spots-images {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center content horizontally */
+  }
+
+  .culture-heritage-images img,
+  .food-beverages-images img,
+  .hotels-images img,
+  .tourist-spots-images img {
+    width: 100%;  /* Ensure images are responsive */
+    height: auto;  /* Maintain aspect ratio */
+    margin-bottom: 10px;
+  }
+
+  /* Ensure videos are the same size as images */
+  .culture-heritage-video iframe,
+  .food-beverages-video iframe,
+  .hotels-video iframe,
+  .tourist-spots-video iframe {
     width: 100%;
+    height: 150px;  /* Match video height to image height */
+    border-radius: 8px;
+  }
+
+  .about-us {
+    font-size: 14px;  /* Reduce text size on mobile */
+    padding: 10px;
   }
 }
-
-.image-description {
-  text-align: center;
-  margin: 20px;
-  padding: 20px;
-  background-color: #f9f9f9;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.image-description h2 {
-  font-size: 24px;
-  color: #333;
-}
-
-.image-description img {
-  margin: 20px 0;
-  max-width: 90%;
-  border-radius: 8px;
-}
-
-.image-description p {
-  font-size: 16px;
-  color: #555;
-}
-
 
 /* Styles for extra small screens (portrait phones) */
 @media (max-width: 480px) {
@@ -231,11 +356,21 @@
   }
 
   .category .category-image {
-    height: 120px;
+    height: 120px;  /* Adjust image height further on very small screens */
   }
 
-  .modal-content {
-    padding: 10px;
-    font-size: 14px;
+  /* Ensure videos are the same size as images on extra small screens */
+  .culture-heritage-video iframe,
+  .food-beverages-video iframe,
+  .hotels-video iframe,
+  .tourist-spots-video iframe {
+    width: 100%;
+    height: 120px;  /* Match video height to image height */
+    border-radius: 8px;
+  }
+
+  .about-us {
+    font-size: 12px;
+    padding: 5px;
   }
 }
