@@ -1,6 +1,14 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom'; // Import useNavigate
 
 function FoodBeverages() {
+    const navigate = useNavigate(); // useNavigate hook to navigate programmatically
+
+    // Handle the back to home navigation
+    const handleBackToHome = () => {
+        navigate('/'); // Navigate to the home page ("/")
+    };
+
     return (
         <div className="food-beverages">
             <h2>Food & Beverages</h2>

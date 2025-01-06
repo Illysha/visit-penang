@@ -1,6 +1,13 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom'; // Import useNavigate
 
 function Hotels() {
+    const navigate = useNavigate(); // useNavigate hook to navigate programmatically
+
+    // Handle the back to home navigation
+    const handleBackToHome = () => {
+        navigate('/'); // Navigate to the home page ("/")
+    };
     return (
         <div className="hotels">
             <h2>Hotels</h2>
