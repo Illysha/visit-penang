@@ -1,4 +1,4 @@
-import this is my app.js code:
+
     import React from 'react';
 import TouristSpots from './TouristSpots';
 import FoodBeverages from './FoodBeverages';
