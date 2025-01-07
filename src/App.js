@@ -60,7 +60,6 @@ const App = () => {
 
     return (
         <div>
-            <h1>Welcome to Visit Penang</h1>
             <nav>
                 <a href="#about-us">About Us</a>
                 <a href="#food-beverages">Food & Beverages</a>
