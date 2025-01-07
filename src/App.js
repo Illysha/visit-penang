@@ -1,9 +1,9 @@
 
-import { FoodBeverages } from "./categories/FoodBeverages.js";
-import { TouristSpots } from "./categories/TouristSpots.js";
-import { CultureHeritage } from "./categories/CultureHeritage.js";
-import { Hotels } from "./categories/Hotels.js";
-import { AboutUs } from "./categories/AboutUs.js";
+import { FoodBeverages } from "./FoodBeverages.js";
+import { TouristSpots } from "./TouristSpots.js";
+import { CultureHeritage } from "./CultureHeritage.js";
+import { Hotels } from "./Hotels.js";
+import { AboutUs } from "./AboutUs.js";
 
 
 const categories = {
