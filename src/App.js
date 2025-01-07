@@ -6,6 +6,7 @@ import { Hotels } from "./Hotels.js";
 import { AboutUs } from "./AboutUs.js";
 
 
+
 const categories = {
     "about-us": AboutUs,
     "food-beverages": FoodBeverages,
@@ -44,3 +45,4 @@ document.addEventListener("DOMContentLoaded", () => {
     // Load the default category (About Us) on page load
     loadCategory("about-us");
 });
+export default App;
