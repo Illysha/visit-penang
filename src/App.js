@@ -61,7 +61,11 @@ const App = () => {
         <div>
             <h1>Welcome to Visit Penang</h1>
             <nav>
-                {/* Add your navigation links here */}
+                <a href="#about-us">About Us</a>
+                <a href="#food-beverages">Food & Beverages</a>
+                <a href="#tourist-spots">Tourist Spots</a>
+                <a href="#culture-heritage">Culture & Heritage</a>
+                <a href="#hotels">Hotels</a>
             </nav>
             <div id="dynamic-content"></div>
         </div>
