@@ -1,22 +1,7 @@
-// src/components/AboutUs.js
-import React from 'react';
-
-
-function AboutUs() {
-    return (
-        <div className="about-us">
-            <h2>About Us</h2>
-            <p>
-                Welcome to our Penang tourism webpage! Our mission is to bring the vibrant and diverse attractions of
-                Penang
-                to life. From breathtaking tourist spots to mouth-watering cuisine and world-class accommodations, we
-                aim
-                to provide a one-stop platform for all your travel needs. Explore, plan, and experience the best that
-                Penang
-                has to offer!
-            </p>
-        </div>
-    );
-}
-
-export default AboutUs;
+/export const aboutUs = {
+title: "About Us",
+    content: `
+    Welcome to Visit Penang! Our mission is to provide visitors with an unforgettable experience as they explore the beauty, culture, and attractions of Penang. 
+    Whether you're a food lover, history enthusiast, or adventure seeker, Penang has something special for everyone. 
+    Discover the charm of our island through our curated categories and make your trip truly memorable.`
+};

@@ -1,26 +1,46 @@
 
-import React from 'react';
-import TouristSpots from './TouristSpots';
-import FoodBeverages from './FoodBeverages';
-import Hotels from './Hotels';
-import CultureHeritage from './CultureHeritage';
-import AboutUs from './AboutUs'; // Import the AboutUs component
-import './App.css';
+import { foodBeverages } from "./categories/FoodBeverages.js";
+import { touristSpots } from "./categories/TouristSpots.js";
+import { cultureHeritage } from "./categories/CultureHeritage.js";
+import { hotels } from "./categories/Hotels.js";
+import { aboutUs } from "./categories/AboutUs.js";
 
-function App() {
-    return (
-        <div className="App">
-            <header className="App-header">
-                <h1>Visit Penang</h1>
-                <p>Explore the best of Penang: tourist spots, food, hotels, culture and heritage!</p>
-            </header>
-            <TouristSpots />
-            <FoodBeverages />
-            <Hotels />
-            <CultureHeritage />
-            <AboutUs /> {/* Add the About Us section here */}
-        </div>
-    );
+
+const categories = {
+    "about-us": aboutUs,
+    "food-beverages": foodBeverages,
+    "tourist-spots": touristSpots,
+    "culture-heritage": cultureHeritage,
+    "hotels": hotels
+};
+
+// Function to update the content dynamically
+function loadCategory(categoryId) {
+    const contentSection = document.getElementById("dynamic-content");
+    const category = categories[categoryId];
+
+    if (category) {
+        contentSection.innerHTML = `
+      <h2>${category.title}</h2>
+      <p>${category.content}</p>
+    `;
+    } else {
+        contentSection.innerHTML = `<p>Category not found.</p>`;
+    }
 }
 
-export default App;
+// Event listener for navigation links
+document.addEventListener("DOMContentLoaded", () => {
+    const navLinks = document.querySelectorAll("nav a");
+
+    navLinks.forEach(link => {
+        link.addEventListener("click", event => {
+            event.preventDefault(); // Prevent default anchor behavior
+            const categoryId = link.getAttribute("href").substring(1); // Extract category ID
+            loadCategory(categoryId);
+        });
+    });
+
+    // Load the default category (About Us) on page load
+    loadCategory("about-us");
+});
