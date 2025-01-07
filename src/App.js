@@ -3,6 +3,7 @@ import { TouristSpots } from "./categories/TouristSpots.js";
 import { CultureHeritage } from "./categories/CultureHeritage.js";
 import { Hotels } from "./categories/Hotels.js";
 import { AboutUs } from "./categories/AboutUs.js";
+import './App.css';
 
 // Define the App component as a function
 const App = () => {
