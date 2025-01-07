@@ -61,9 +61,27 @@ footer {
 #dynamic-content {
     margin: 20px auto;
     max-width: 800px;
-    background: #f9f9f9;
+    background:#99bdca ;
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Media query for extra small screens (like phones in portrait) */
+@media screen and (max-width: 480px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    nav a {
+        font-size: 1rem;
+    }
 }
