@@ -58,7 +58,7 @@ const App = () => {
         loadCategory("about-us"); // Default category on page load
     });
 
-   /* return (
+    return (
         <div>
             <nav>
                 <a href="#about-us">About Us</a>
@@ -69,7 +69,7 @@ const App = () => {
             </nav>
             <div id="dynamic-content"></div>
         </div>
-    );*/
+    );
 };
 
 // Export the App component as the default export
