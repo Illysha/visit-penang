@@ -1,17 +1,17 @@
 
-import { foodBeverages } from "./categories/FoodBeverages.js";
-import { touristSpots } from "./categories/TouristSpots.js";
-import { cultureHeritage } from "./categories/CultureHeritage.js";
-import { hotels } from "./categories/Hotels.js";
-import { aboutUs } from "./categories/AboutUs.js";
+import { FoodBeverages } from "./categories/FoodBeverages.js";
+import { TouristSpots } from "./categories/TouristSpots.js";
+import { CultureHeritage } from "./categories/CultureHeritage.js";
+import { Hotels } from "./categories/Hotels.js";
+import { AboutUs } from "./categories/AboutUs.js";
 
 
 const categories = {
-    "about-us": aboutUs,
-    "food-beverages": foodBeverages,
-    "tourist-spots": touristSpots,
-    "culture-heritage": cultureHeritage,
-    "hotels": hotels
+    "about-us": AboutUs,
+    "food-beverages": FoodBeverages,
+    "tourist-spots": TouristSpots,
+    "culture-heritage": CultureHeritage,
+    "hotels": Hotels
 };
 
 // Function to update the content dynamically
