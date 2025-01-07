@@ -1,15 +1,19 @@
+// Import necessary libraries
 import React from 'react';
-import ReactDOM from 'react-dom/client'; // Updated import for React 18
-import App from './App';
-import './App.css';
+import ReactDOM from 'react-dom/client';  // Notice the 'client' import for React 18
+import App from './App';  // Import your main app component
 
-// Use the createRoot API for React 18+
-const root = ReactDOM.createRoot(document.getElementById('root'));
+// Get the root element where the app will be rendered
+const rootElement = document.getElementById('root');
+
+// Create the root and render the App component
+const root = ReactDOM.createRoot(rootElement);
 root.render(
     <React.StrictMode>
         <App />
     </React.StrictMode>
 );
+
 
 
 
