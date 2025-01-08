@@ -15,17 +15,13 @@ body {
 
 /* Header */
 header {
-    color: #000000 ;
-    text-align: left;
-    background-image: url('https://i.pinimg.com/736x/d3/df/e9/d3dfe97fd6e83b1d3c48bef6aec80c40.jpg')  ;
-    background-size: cover;
-    background-position: center;
-    min-height: 75vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    color: #000000;
+    text-align: center;
+    background-color:#f2ebde;
+    border-bottom-left-radius: 50% 20px; /* Adjust the values to achieve a semi-spherical shape */
+    border-bottom-right-radius: 50% 20px; /* Same as above, for the right side */
 }
+
 
 
 header h1.custom-font {
@@ -34,15 +30,13 @@ header h1.custom-font {
     font-weight: bold; /* Optional for emphasis */
     color: #000000; /* Optional: Add a color */
     margin-bottom: 10px; /* Reduce spacing between header and following text */
-    text-align: left;
 }
 
 header p {
     font-size: 16px; /* Adjust size for other paragraphs */
     line-height: 0.8; /* Make text lines closer together */
     color: #000000; /* Optional: Default text color */
-    margin: 0; /* Remove extra spacing between paragraphs */
-    text-align: left;
+    margin: 10px; /* Remove extra spacing between paragraphs */
 }
 
 
