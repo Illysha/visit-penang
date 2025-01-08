@@ -2,7 +2,7 @@ import React from "react";
 
 export const AboutUs = () => {
     return (
-        <div>
+        <div className="about-us-container">
             <h1>About Us</h1>
             <p>
                 Welcome to Visit Penang! Our mission is to provide visitors with an
@@ -12,6 +12,22 @@ export const AboutUs = () => {
                 Discover the charm of our island through our curated categories and
                 make your trip truly memorable.
             </p>
+
+            <div className="about-image">
+                <img
+                    src="https://example.com/penang-image.jpg" // Replace with actual image URL
+                    alt="Penang"
+                    className="about-image-img"
+                />
+                <div className="about-description">
+                    <h3>Explore Penang</h3>
+                    <p>
+                        Penang offers a unique blend of cultural diversity, rich heritage,
+                        and natural beauty. From the historic streets of George Town to the
+                        tranquil beaches, there's always something new to explore.
+                    </p>
+                </div>
+            </div>
         </div>
     );
 };
