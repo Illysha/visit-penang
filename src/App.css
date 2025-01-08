@@ -1,9 +1,9 @@
 /* General Styles */
-/*html, body {
+html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-}*/
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -17,8 +17,8 @@ body {
 header {
     color: #000000;
     text-align: center;
-    background-image:url('https://i.pinimg.com/736x/2d/3b/7f/2d3b7f0a239a2b4d847d2e247a19d5e6.jpg');
-    min-height: 30vh;
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ2g2kJqfl3B8rBVx6Hge9fgOL8AmUjkeLrg&s');
+    min-height: 90vh;
 }
 
 
@@ -75,10 +75,10 @@ nav a:hover {
 #dynamic-content {
     margin: 20px auto;
     max-width: 1000px;
-    border: 1px solid #ddd;
+    border: 1px solid #f1e8d7;
     border-radius: 8px;
     padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /*box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/
 }
 
 /* New Styles for Image and Text Pairing */

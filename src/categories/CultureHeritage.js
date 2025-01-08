@@ -3,7 +3,7 @@ import React from "react";
 export const CultureHeritage = () => {
     return (
         <div>
-            <h1>
+            <h1 style="text-align: center;">
                 Culture & Heritage
             </h1>
             <p>
@@ -30,7 +30,8 @@ export const CultureHeritage = () => {
             {/* Dynamic Content Section with Image-Text Pairs */}
             <div id="dynamic-content">
 
-                <div className="image-text-pair" style={{display: 'flex', alignItems: 'center', marginBottom: '30px'}}>
+                <div className="image-text-pair"
+                     style={{display: 'flex', alignItems: 'center', marginBottom: '30px'}}>
                     <img
                         src="path_to_image_2.jpg"
                         alt="Image 2"
@@ -48,7 +49,8 @@ export const CultureHeritage = () => {
                     </div>
                 </div>
 
-                <div className="image-text-pair" style={{display: 'flex', alignItems: 'center', marginBottom: '30px'}}>
+                <div className="image-text-pair"
+                     style={{display: 'flex', alignItems: 'center', marginBottom: '30px'}}>
                     <img
                         src="path_to_image_2.jpg"
                         alt="Image 2"
@@ -66,7 +68,8 @@ export const CultureHeritage = () => {
                     </div>
                 </div>
 
-                <div className="image-text-pair" style={{display: 'flex', alignItems: 'center', marginBottom: '30px'}}>
+                <div className="image-text-pair"
+                     style={{display: 'flex', alignItems: 'center', marginBottom: '30px'}}>
                     <img
                         src="path_to_image_3.jpg"
                         alt="Image 3"
