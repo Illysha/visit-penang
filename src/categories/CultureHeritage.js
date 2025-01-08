@@ -3,13 +3,12 @@ import React from "react";
 export const CultureHeritage = () => {
     return (
         <div style={{textAlign: 'center'}}>
-            <h1>Culture & Heritage</h1>
-            <p>
-                Penang is rich in culture and history. </p>
-            <p> Explore George Town, a UNESCO World Heritage Site, and learn</p>
-            <p>about its diverse cultural influences </p>
-            <p>through museums, temples, and traditional festivals.
-            </p>
+            <h1>Arts & Heritage: “Step into Penang’s Rich Art & Cultural Heritage</h1>
+            <p>Experience the rich tapestry of Penang’s history, art, and culture.</p>
+            <p>Immerse yourself in the island’s heritage, where past and present blend harmoniously.</p>
+            <p>Explore traditional landmarks, vibrant art, and rich cultural stories that make Penang a place like no other
+        </p>
+
 
 
             {/* YouTube Video */}
