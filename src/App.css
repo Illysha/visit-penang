@@ -29,30 +29,57 @@ header {
     background-image: url('https://i.pinimg.com/236x/ae/91/e9/ae91e9687792f0291b801c7ace1e68dc.jpg');
     background-size: cover;
     background-position: center;
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+    background-repeat: no-repeat; /* Prevents tiling of the image */
     min-height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    position: relative; /* Added to position the overlay */
 }
 
+/* Gradient Overlay */
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Adds dark overlay */
+    z-index: 1; /* Ensures the overlay is beneath the text */
+}
 
+/* Header text */
 header h1.custom-font {
     font-size: 52px;
     font-family: 'Quicksand', serif;
     font-weight: bold;
-    color: #000000;
+    color: #FFFFFF; /* White color for better contrast on the overlay */
     margin-bottom: 10px;
+    z-index: 2; /* Ensures the header text stays on top of the overlay */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Adds a shadow for better readability */
 }
 
+/* Subheading text */
 header p {
     font-size: 20px;
     line-height: 0.8;
-    color: #000000;
+    color: #FFFFFF; /* White for better contrast */
     margin: 10px;
     font-weight: bold;
+    z-index: 2; /* Ensures the paragraph stays on top */
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7); /* Adds a subtle shadow effect */
 }
+
+/* Optional: Add a hover effect to the heading */
+header h1.custom-font:hover {
+    color: #FFD700; /* Gold color on hover */
+    transform: scale(1.05); /* Slightly scales up on hover */
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
 
 
 /* Navigation */
