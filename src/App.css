@@ -16,15 +16,17 @@ body {
 /* Header */
 header {
     color: #000000 ;
-    text-align: center;
+    text-align: right;
     background-image: url('https://i.pinimg.com/736x/d3/df/e9/d3dfe97fd6e83b1d3c48bef6aec80c40.jpg')  ;
     background-size: cover;
     background-position: center;
-    min-height: 64vh;
+    min-height: 75vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 1000px; /* Or any specific pixel value */
+    height: auto;
 }
 
 header p.small-text {
