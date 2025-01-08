@@ -9,32 +9,10 @@ body {
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
-    background-color: #cfaae6;
-    position: relative;
-    overflow: hidden;
+    background: url('https://www.pexels.com/photo/bed-on-colorful-flowers-on-cape-10079452/') no-repeat center center fixed;
+    background-size: cover;
 }
 
-body::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 200%;
-    height: 200%;
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.2) 1%, transparent 1%);
-    background-size: 10px 10px;
-    animation: particles 10s linear infinite;
-    z-index: -1;
-}
-
-@keyframes particles {
-    0% {
-        transform: translate(0, 0);
-    }
-    100% {
-        transform: translate(-50%, -50%);
-    }
-}
 
 
 
