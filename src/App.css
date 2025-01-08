@@ -9,7 +9,9 @@ body {
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
-    background-color: #f1e8d7;
+    background-image:url('https://images.pexels.com/photos/2770371/pexels-photo-2770371.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+    background-position: center;
 }
 
 
@@ -26,7 +28,7 @@ body {
 header {
     color: #000000;
     text-align: center;
-    background-image:url('https://media.istockphoto.com/id/638374196/photo/2nd-penang-bridge-during-dawn.jpg?s=612x612&w=0&k=20&c=UHgki-xLArO9sEmrRGq3GtwsoAy7B21ptwknPjHQds4=');
+    background-image:url('https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg?auto=compress&cs=tinysrgb&w=600');
     min-height: 90vh;
     background-size: cover;
     background-position: center;
@@ -101,10 +103,8 @@ nav a:hover {
     display: flex;
     align-items: center;
     margin-bottom: 80px;
-    border: 2px solid #000000;
     border-radius: 20px;
     padding: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     justify-content: center;
     background-color: #f1e8d7;
 }
