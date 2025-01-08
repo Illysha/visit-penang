@@ -17,7 +17,7 @@ body {
 header {
     color: #000000 ;
     text-align: center;
-    background-color: white ;
+    background-image: url('https://i.pinimg.com/736x/93/f8/64/93f864f913ae215edb5629e3ab9873ce.jpg')  ;
     background-size: cover;
     background-position: center;
     min-height: 30vh;
@@ -30,20 +30,24 @@ header {
 header p.small-text {
     font-size: 12px; /* Make the first paragraph smaller */
     color: #000000; /* Optional: Add subtle styling */
+    line-height: 0.8; /* Bring lines closer together */
 }
 
 header h1.custom-font {
     font-size: 48px; /* Make the header larger */
-    font-family: 'Lobster', serif; /* Use a custom font, or load one via Google Fonts */
+    font-family: 'Quicksand', serif; /* Use a custom font, or load one via Google Fonts */
     font-weight: bold; /* Optional for emphasis */
     color: #000000; /* Optional: Add a color */
+    margin-bottom: 10px; /* Reduce spacing between header and following text */
 }
 
 header p {
     font-size: 16px; /* Adjust size for other paragraphs */
-    line-height: 0.5; /* Improve readability */
+    line-height: 0.8; /* Make text lines closer together */
     color: #000000; /* Optional: Default text color */
+    margin: 0; /* Remove extra spacing between paragraphs */
 }
+
 
 /* Navigation */
 nav {
@@ -95,10 +99,23 @@ nav a:hover {
     margin-bottom: 80px; /* Add space between pairs */
 }
 
-.image-text-pair img {
+.image-text-pair .image-container {
     width: 700px;
     height: 600px;
-    border-radius: 80%; /* Makes the image round */
+    border: 2px solid #000000; /* Add a border around the box */
+    border-radius: 20px; /* Rounded corners for the box */
+    padding: 10px; /* Space between the image and the box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff; /* Optional: Add a background color */
+}
+
+.image-text-pair img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%; /* Makes the image round */
     object-fit: cover;
     background-position: center;
 }
@@ -114,6 +131,7 @@ nav a:hover {
     margin-top: 20px;
     width: 100%;
 }
+
 
 /* Footer */
 footer {
