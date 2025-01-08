@@ -99,6 +99,31 @@ export const TouristSpots = () => {
                             target="_blank" rel="noopener noreferrer">Batu Ferringhi location on Bing Maps</a>.</p>
                     </div>
                 </div>
+
+                <div className="image-text-pair" style={{display: 'flex', alignItems: 'center', marginBottom: '30px'}}>
+                    <div className="text" style={{flex: 1}}>
+                        <h3>Pulau Jerejak Beach</h3>
+                        <p>This pretty tropical island off the coast of Penang is home to
+                            lush rainforests and pristine beaches. The verdant landscape,
+                            tranquil vibes & one of the cleanest beaches in Penang
+                            have transformed Pulau Jerejak into an eco-tourism hub.
+                        </p>
+                        <p>For directions to Pulau Jerejak Beach, visit the <a
+                            href="https://www.bing.com/maps?osid=67441cce-1f22-445e-a802-01d4f5df21a2&cp=5.425172~100.266037&lvl=17&pi=0&v=2&sV=2&form=S00027 "
+                            target="_blank" rel="noopener noreferrer">Pulau Jerejak Beach location on Bing Maps</a>.</p>
+                    </div>
+                    <img
+                        src="https://photos.smugmug.com/Asia/Malaysia/Georgetown-2020s/i-x9VSs2H/0/DfRLrqW3QdGcBXQjFQXgMSPBpvvgnRtvfqKDqqC3F/L/20240518_160933-gurney-bay-new-trees-L.jpg"
+                        alt="Penang Street Art"
+                        style={{
+                            width: '120px',
+                            height: '120px',
+                            borderRadius: '50%',
+                            objectFit: 'cover',
+                            marginRight: '20px'
+                        }}
+                    />
+                </div>
             </div>
         </div>
     );

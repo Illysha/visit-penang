@@ -87,9 +87,62 @@ export const FoodBeverages = () => {
                     <div className="text" style={{flex: 1}}>
                         <h3>Ais Tingkap</h3>
                         <p>Ais Tingkap: The Window Drink of Penang</p>
-                        <p>Step back in time with Ais Tingkap, a nostalgic beverage loved by locals. This unique drink is
-                            made with rose syrup, basil seeds, coconut water, and a splash of lime, creating a refreshing
+                        <p>Step back in time with Ais Tingkap, a nostalgic beverage loved by locals. This unique drink
+                            is
+                            made with rose syrup, basil seeds, coconut water, and a splash of lime, creating a
+                            refreshing
                             burst of flavor.
+                        </p>
+                    </div>
+                </div>
+
+                <div className="image-text-pair" style={{display: 'flex', alignItems: 'center', marginBottom: '30px'}}>
+                    <div className="text" style={{flex: 1}}>
+                        <h3>RESTAURANT</h3>
+                        <p>KAPITAN RESTAURANT: A CULINARY GEM IN PENANG</p>
+                        <p>Located in the heart of George Town, Kapitan Restaurant
+                            is a must-visit for food lovers seeking authentic Indian
+                            and Malaysian cuisine.
+                        </p>
+                        <p>Location: 93, Chulia St, Georgetown, 10200 George Town, Penang, Malaysia.
+                            Operating hours: 24 hours
+                        </p>
+                    </div>
+                    <img
+                        src="http://migrationology.smugmug.com/Malaysia-2015/i-vXZGHPD/0/X3/kapitan-restaurant-penang-1-X3.jpg"
+                        alt="Nasi Kandar"
+                        style={{
+                            width: '120px',
+                            height: '120px',
+                            borderRadius: '50%',
+                            objectFit: 'cover',
+                            marginRight: '20px'
+                        }}
+                    />
+                </div>
+
+                <div className="image-text-pair" style={{display: 'flex', alignItems: 'center', marginBottom: '30px'}}>
+                    <img
+                        src="http://migrationology.smugmug.com/Malaysia-2015/i-vXZGHPD/0/X3/kapitan-restaurant-penang-1-X3.jpg"
+                        alt="Nasi Kandar"
+                        style={{
+                            width: '120px',
+                            height: '120px',
+                            borderRadius: '50%',
+                            objectFit: 'cover',
+                            marginRight: '20px'
+                        }}
+                    />
+                    <div className="text" style={{flex: 1}}>
+                        <h3>CAFE</h3>
+                        <p>Kopi hutan: A Sip of Nature on Penang Hill</p>
+                        <p>For those who already have plans to visit Penang Hill, Kopi Hutan is the cafe
+                            you don’t want to miss! Also known as the highest cafe in Penang, this place is special
+                            because it’s located 700+ meters
+                            above sea level PLUS hidden amidst a tropical rainforest.
+                        </p>
+                        <p>Location: Kopi Hutan Monkey Cup Garden, Penang Hill, Bukit Bendera, 11300 Bukit Bendera, Penang
+                            Operating hours: Mon-Sun: 0900-1830
                         </p>
                     </div>
                 </div>

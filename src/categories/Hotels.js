@@ -82,9 +82,51 @@ export const Hotels = () => {
                     />
                     <div className="text" style={{flex: 1}}>
                         <h3>Unique Stays for Adventurers: Boulder Valley Glamping</h3>
-                        <p>For those looking to connect with nature, Boulder Valley Glamping offers a one-of-akind experience.
+                        <p>For those looking to connect with nature, Boulder Valley Glamping offers a one-of-akind
+                            experience.
                             Wake up to the sounds of nature and unwind under the stars,
                             making your stay in Penang truly unforgettable.
+                        </p>
+                    </div>
+                </div>
+                <div className="image-text-pair" style={{display: 'flex', alignItems: 'center', marginBottom: '30px'}}>
+                    <div className="text" style={{flex: 1}}>
+                        <h3>Bayview hotel Georgetown</h3>
+                        <p>FIn the heart of Penang Island’s vibrant capital,
+                            the Bayview Hotel Georgetown Penang combines
+                            contemporary style with an enviable central setting.
+                        </p>
+                    </div>
+                    <img
+                        src="https://d2ile4x3f22snf.cloudfront.net/wp-content/uploads/sites/177/2017/09/30082805/bayview-georgetown-penang-hotel-job-slideshow-021.jpg "
+                        alt="Boutique Hotel"
+                        style={{
+                            width: '120px',
+                            height: '120px',
+                            borderRadius: '50%',
+                            objectFit: 'cover',
+                            marginRight: '20px'
+                        }}
+                    />
+                </div>
+
+                <div className="image-text-pair" style={{display: 'flex', alignItems: 'center', marginBottom: '30px'}}>
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy49nXPfNVGM2SSbb_HqSqIF3lrHeiXZM1Og&s"
+                        alt="Boutique Hotel"
+                        style={{
+                            width: '120px',
+                            height: '120px',
+                            borderRadius: '50%',
+                            objectFit: 'cover',
+                            marginRight: '20px'
+                        }}
+                    />
+                    <div className="text" style={{flex: 1}}>
+                        <h3>Dr Hotel Penang, Bayan Lepas</h3>
+                        <p>Dr Hotel Penang Bayan Lepas includes 20 rooms and is
+                            nearly a 10-minute ride from Setia SPICE Convention Center.
+                            The hotel offers Wi-Fi throughout the property.
                         </p>
                     </div>
                 </div>
