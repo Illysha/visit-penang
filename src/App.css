@@ -34,6 +34,7 @@ header h1.custom-font {
     font-weight: bold; /* Optional for emphasis */
     color: #000000; /* Optional: Add a color */
     margin-bottom: 10px; /* Reduce spacing between header and following text */
+    text-align: left;
 }
 
 header p {
@@ -41,6 +42,7 @@ header p {
     line-height: 0.8; /* Make text lines closer together */
     color: #000000; /* Optional: Default text color */
     margin: 0; /* Remove extra spacing between paragraphs */
+    text-align: left;
 }
 
 
