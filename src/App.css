@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Cormorant, sans-serif;
     background-color:#f1ecf3;
 }
 
@@ -55,7 +55,7 @@ header::before {
 /* Header text */
 header h1.custom-font {
     font-size: 52px;
-    font-family: 'Quicksand', serif;
+    font-family: 'Archivo Black', serif;
     font-weight: bold;
     color: #FFFFFF; /* White color for better contrast on the overlay */
     margin-bottom: 10px;
