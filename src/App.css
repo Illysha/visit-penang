@@ -1,18 +1,25 @@
 /* General Styles */
-body {
-    font-family: Arial, sans-serif;
+html, body {
+    height: 100%; /* Ensure full viewport height */
     margin: 0;
     padding: 0;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
 
+/* Header */
 header {
     color: white;
     text-align: center;
     background-image: url('https://www.cuticuti-malaysia.com/wp-content/uploads/2018/12/penang.jpg'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
-    min-height: 50vh;
+    background-attachment: fixed;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,10 +27,12 @@ header {
     font-size: calc(10px + 2vmin);
 }
 
+/* Navigation */
 nav {
     display: flex;
     justify-content: center;
     background-color: #000000;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
 }
 
 nav a {
@@ -37,9 +46,11 @@ nav a:hover {
     background-color: #004494;
 }
 
+/* Main Content Sections */
 .section {
     padding: 20px;
     margin: 10px;
+    flex-grow: 1; /* Allows sections to grow and take space */
 }
 
 .section h2 {
@@ -47,27 +58,29 @@ nav a:hover {
     color: #007bff;
 }
 
-footer {
-    background-color: #000000;
-    color:#ded7dd;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
 /* Dynamic Content Styles */
 #dynamic-content {
     margin: 20px auto;
     max-width: 800px;
-    background:#99bdca ;
+    background: #99bdca;
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+/* Footer */
+footer {
+    background-color: #000000;
+    color: #ded7dd;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+/* Media Queries */
+
+/* For tablets and smaller screens (portrait mode) */
 @media screen and (max-width: 768px) {
     nav {
         flex-direction: column;
@@ -75,7 +88,7 @@ footer {
     }
 }
 
-/* Media query for extra small screens (like phones in portrait) */
+/* For extra small screens (phones in portrait) */
 @media screen and (max-width: 480px) {
     header h1 {
         font-size: 1.5rem;
