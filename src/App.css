@@ -16,7 +16,7 @@ body {
 /* Header */
 header {
     color: #000000 ;
-    text-align: right;
+    text-align: left;
     background-image: url('https://i.pinimg.com/736x/d3/df/e9/d3dfe97fd6e83b1d3c48bef6aec80c40.jpg')  ;
     background-size: cover;
     background-position: center;
@@ -25,18 +25,11 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 1000px; /* Or any specific pixel value */
-    height: auto;
 }
 
-header p.small-text {
-    font-size: 12px; /* Make the first paragraph smaller */
-    color: #000000; /* Optional: Add subtle styling */
-    line-height: 0.8; /* Bring lines closer together */
-}
 
 header h1.custom-font {
-    font-size: 48px; /* Make the header larger */
+    font-size: 52px; /* Make the header larger */
     font-family: 'Quicksand', serif; /* Use a custom font, or load one via Google Fonts */
     font-weight: bold; /* Optional for emphasis */
     color: #000000; /* Optional: Add a color */
