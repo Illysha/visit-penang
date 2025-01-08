@@ -53,17 +53,6 @@ export const TouristSpots = () => {
                 </div>
 
                 <div className="image-text-pair" style={{display: 'flex', alignItems: 'center', marginBottom: '30px'}}>
-                    <div className="text" style={{flex: 1}}>
-                        <h3>Gurney bay</h3>
-                        <p>Unwind by the sea at Gurney Bay, Penang’s newest and most vibrant waterfront
-                            destination. Located along the iconic Gurney Drive, this picturesque spot offers
-                            something for everyone, whether you're a nature enthusiast, food lover, or simply
-                            seeking a serene escape.
-                        </p>
-                        <p>For directions to Gurney Bay, visit the <a
-                            href="https://www.bing.com/maps?osid=49b33735-e9eb-421d-90a7-2e857e66fae3&cp=57.800002~-154.763653&lvl=16&pi=0&v=2&sV=2&form=S00027"
-                            target="_blank" rel="noopener noreferrer">Gurney Bay location on Bing Maps</a>.</p>
-                    </div>
                     <img
                         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKkNng-eRXpHK8USBsRFUUZtDIePZ8vSelLQ&s"
                         alt="Kek Lok Si Temple"
@@ -75,6 +64,17 @@ export const TouristSpots = () => {
                             marginRight: '20px'
                         }}
                     />
+                    <div className="text" style={{flex: 1}}>
+                        <h3>Gurney bay</h3>
+                        <p>Unwind by the sea at Gurney Bay, Penang’s newest and most vibrant waterfront
+                            destination. Located along the iconic Gurney Drive, this picturesque spot offers
+                            something for everyone, whether you're a nature enthusiast, food lover, or simply
+                            seeking a serene escape.
+                        </p>
+                        <p>For directions to Gurney Bay, visit the <a
+                            href="https://www.bing.com/maps?osid=49b33735-e9eb-421d-90a7-2e857e66fae3&cp=57.800002~-154.763653&lvl=16&pi=0&v=2&sV=2&form=S00027"
+                            target="_blank" rel="noopener noreferrer">Gurney Bay location on Bing Maps</a>.</p>
+                    </div>
                 </div>
 
                 <div className="image-text-pair" style={{display: 'flex', alignItems: 'center', marginBottom: '30px'}}>
@@ -101,17 +101,6 @@ export const TouristSpots = () => {
                 </div>
 
                 <div className="image-text-pair" style={{display: 'flex', alignItems: 'center', marginBottom: '30px'}}>
-                    <div className="text" style={{flex: 1}}>
-                        <h3>Pulau Jerejak Beach</h3>
-                        <p>This pretty tropical island off the coast of Penang is home to
-                            lush rainforests and pristine beaches. The verdant landscape,
-                            tranquil vibes & one of the cleanest beaches in Penang
-                            have transformed Pulau Jerejak into an eco-tourism hub.
-                        </p>
-                        <p>For directions to Pulau Jerejak Beach, visit the <a
-                            href="https://www.bing.com/maps?osid=67441cce-1f22-445e-a802-01d4f5df21a2&cp=5.425172~100.266037&lvl=17&pi=0&v=2&sV=2&form=S00027 "
-                            target="_blank" rel="noopener noreferrer">Pulau Jerejak Beach location on Bing Maps</a>.</p>
-                    </div>
                     <img
                         src="https://photos.smugmug.com/Asia/Malaysia/Georgetown-2020s/i-x9VSs2H/0/DfRLrqW3QdGcBXQjFQXgMSPBpvvgnRtvfqKDqqC3F/L/20240518_160933-gurney-bay-new-trees-L.jpg"
                         alt="Penang Street Art"
@@ -123,6 +112,17 @@ export const TouristSpots = () => {
                             marginRight: '20px'
                         }}
                     />
+                    <div className="text" style={{flex: 1}}>
+                        <h3>Pulau Jerejak Beach</h3>
+                        <p>This pretty tropical island off the coast of Penang is home to
+                            lush rainforests and pristine beaches. The verdant landscape,
+                            tranquil vibes & one of the cleanest beaches in Penang
+                            have transformed Pulau Jerejak into an eco-tourism hub.
+                        </p>
+                        <p>For directions to Pulau Jerejak Beach, visit the <a
+                            href="https://www.bing.com/maps?osid=67441cce-1f22-445e-a802-01d4f5df21a2&cp=5.425172~100.266037&lvl=17&pi=0&v=2&sV=2&form=S00027 "
+                            target="_blank" rel="noopener noreferrer">Pulau Jerejak Beach location on Bing Maps</a>.</p>
+                    </div>
                 </div>
             </div>
         </div>
