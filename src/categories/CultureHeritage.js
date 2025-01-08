@@ -9,15 +9,6 @@ export const CultureHeritage = () => {
                 about its diverse cultural influences through museums, temples, and traditional festivals.
             </p>
 
-            {/* Image with Title */}
-            <figure style={{textAlign: 'center', marginBottom: '30px'}}>
-                <img
-                    src="https://i.pinimg.com/236x/3b/94/54/3b9454bc687faa9c5bb61e228e8de3b5.jpg"
-                    alt="Culture and Heritage"
-                    style={{width: '100%', maxWidth: '560px', height: 'auto', borderRadius: '8px'}}
-                />
-                <figcaption style={{fontStyle: 'italic', marginTop: '10px'}}>Exploring the cultural heritage of George Town</figcaption>
-            </figure>
 
             {/* YouTube Video */}
             <div style={{textAlign: 'center', marginBottom: '30px'}}>
