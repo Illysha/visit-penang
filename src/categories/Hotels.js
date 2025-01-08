@@ -44,9 +44,7 @@ export const Hotels = () => {
                     <div className="text" style={{flex: 1}}>
                         <h3>Luxurious Retreats by the Sea: Shangri-La’s Rasa Sayang Resort & Spa</h3>
                         <p>Experience unparalleled luxury at Shangri-La’s Rasa Sayang Resort & Spa, nestled
-                            along the golden sands of Batu Ferringhi. This resort boasts world-class amenities,
-                            including a serene spa, stunning sea views, and exquisite dining options. Perfect for
-                            honeymooners or those seeking a peaceful escape, it promises a retreat like no other.</p>
+                            along the golden sands of Batu Ferringhi. </p>
                     </div>
                 </div>
 
@@ -54,9 +52,7 @@ export const Hotels = () => {
                     <div className="text" style={{flex: 1}}>
                         <h3>Charming Boutique Hotels: The Edison George Town and Seven Terraces</h3>
                         <p>Dive into Penang’s rich heritage by staying at boutique hotels like The Edison George
-                            Town or Seven Terraces. These properties are renowned for their historic architecture,
-                            artistic interiors, and personalized service. Situated in the heart of George Town, they
-                            are the ideal base for exploring Penang’s UNESCO World Heritage Sites.
+                            Town or Seven Terraces.
                         </p>
                     </div>
                     <img
@@ -86,8 +82,8 @@ export const Hotels = () => {
                     />
                     <div className="text" style={{flex: 1}}>
                         <h3>Unique Stays for Adventurers: Boulder Valley Glamping</h3>
-                        <p>For those looking to connect with nature, Boulder Valley Glamping offers a one-of-akind experience. Nestled in the rainforest, this eco-resort provides the perfect mix of
-                            adventure and relaxation. Wake up to the sounds of nature and unwind under the stars,
+                        <p>For those looking to connect with nature, Boulder Valley Glamping offers a one-of-akind experience.
+                            Wake up to the sounds of nature and unwind under the stars,
                             making your stay in Penang truly unforgettable.
                         </p>
                     </div>

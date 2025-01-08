@@ -1,13 +1,13 @@
 import React, { useState } from "react";
-import { FoodBeverages } from "./categories/FoodBeverages.js";
-import { TouristSpots } from "./categories/TouristSpots.js";
-import { CultureHeritage } from "./categories/CultureHeritage.js";
-import { Hotels } from "./categories/Hotels.js";
-import { AboutUs } from "./categories/AboutUs.js";
+import { FoodBeverages } from "./categories/FoodBeverages";
+import { TouristSpots } from "./categories/TouristSpots";
+import { CultureHeritage } from "./categories/CultureHeritage";
+import { Hotels } from "./categories/Hotels";
+import { AboutUs } from "./categories/AboutUs";
 import "./App.css";
 
 const App = () => {
-    // Define the categories with subcategories
+    // Define the categories
     const categories = {
         "about-us": { title: "About Us", content: <AboutUs /> },
         "food-beverages": { title: "Food & Beverages", content: <FoodBeverages /> },
@@ -28,7 +28,7 @@ const App = () => {
         <div>
             <nav>
                 <div className="dropdown">
-                    <a href="#explore-more">Explore More</a>
+                    <button className="dropdown-btn">Explore More</button>
                     <div className="dropdown-content">
                         {Object.keys(categories).map((key) => (
                             <a
@@ -53,3 +53,4 @@ const App = () => {
 };
 
 export default App;
+

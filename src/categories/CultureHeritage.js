@@ -4,9 +4,11 @@ export const CultureHeritage = () => {
     return (
         <div style={{textAlign: 'center'}}>
             <h1>Arts & Heritage: “Step into Penang’s Rich Art & Cultural Heritage</h1>
-            <p>Experience the rich tapestry of Penang’s history, art, and culture.</p>
-            <p>Immerse yourself in the island’s heritage, where past and present blend harmoniously.</p>
-            <p>Explore traditional landmarks, vibrant art, and rich cultural stories that make Penang a place like no other
+            <p style={{textAlign: 'justify'}}>
+                Experience the rich tapestry of Penang’s history, art, and culture.
+                Immerse yourself in the island’s heritage, where past and present blend harmoniously.
+                Explore traditional landmarks, vibrant art, and rich cultural stories that
+                make Penang a place like no other
         </p>
 
 
@@ -46,10 +48,7 @@ export const CultureHeritage = () => {
                         <h3>George Town Heritage Trail</h3>
                         <p>Start your journey through Penang’s arts and heritage by walking the George Town
                             Heritage Trail. This UNESCO World Heritage Site is a vibrant collection of colonialera
-                            architecture, colorful street art, and cultural landmarks. You’ll pass historic
-                            temples, century-old mansions, and intriguing alleyways adorned with murals that
-                            bring the city’s past to life. Be sure to visit Street Art Lane for iconic murals by local
-                            artists!
+                            architecture, colorful street art, and cultural landmarks.
                         </p>
                     </div>
                 </div>
@@ -61,9 +60,7 @@ export const CultureHeritage = () => {
                         <h3>Khoo Kongsi Clan House</h3>
                         <p>Explore the grandeur of the Khoo Kongsi Clan House, one of the most prestigious
                             clan houses in Penang, showcasing the rich cultural heritage of the Khoo family, who
-                            were influential in the region. The clan house, located in George Town, is an
-                            architectural masterpiece, with intricate carvings and traditional designs that reflect
-                            the opulence and history of the Khoo family’s success in the late 19th century
+                            were influential in the region.
                         </p>
                     </div>
                     <img
@@ -97,10 +94,7 @@ export const CultureHeritage = () => {
                         <h3>The Penang State Museum and Art Gallery
                         </h3>
                         <p>To dive deeper into Penang’s heritage, visit the Penang State Museum and Art Gallery,
-                            where you’ll find exhibits dedicated to the island’s history, culture, and art. From
-                            early colonial artifacts to contemporary art, this museum showcases the diversity that
-                            makes Penang unique. It’s a great spot for those interested in understanding the
-                            historical and artistic development of the region..</p>
+                            where you’ll find exhibits dedicated to the island’s history, culture, and art. .</p>
                     </div>
                 </div>
             </div>

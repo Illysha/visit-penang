@@ -91,17 +91,18 @@ header p {
 }
 
 
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
 /* Navigation Styling */
 nav {
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: #ffffff;
-    padding: 15px;
+    background-color: white;
+    padding: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
 }
 
 /* Dropdown */
@@ -111,41 +112,35 @@ nav {
 }
 
 /* Dropdown Button */
-.dropdown > a {
-    background-color: #007bff; /* Button color */
-    color: #fff; /* Text color */
-    text-decoration: none;
+.dropdown-btn {
+    background-color: #4CAF50;
+    color: white;
     padding: 10px 20px;
     font-size: 16px;
-    font-weight: bold;
-    border-radius: 5px;
     border: none;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-    display: inline-block;
-    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-.dropdown > a:hover {
-    background-color: #0056b3; /* Darker shade on hover */
-    transform: scale(1.05); /* Slightly enlarge on hover */
+/* Hover effect for button */
+.dropdown-btn:hover {
+    background-color: #45a049;
 }
 
-/* Dropdown Content */
+/* Dropdown Content (hidden by default) */
 .dropdown-content {
     display: none;
     position: absolute;
     top: 100%;
     left: 0;
     background-color: #f9f9f9;
-    min-width: 200px;
+    min-width: 160px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    z-index: 1000;
-    overflow: hidden;
-    padding: 5px 0;
+    z-index: 1;
 }
 
-/* Show dropdown on hover */
+/* Show the dropdown content when hovering the button */
 .dropdown:hover .dropdown-content {
     display: block;
 }
@@ -153,19 +148,22 @@ nav {
 /* Dropdown Links */
 .dropdown-content a {
     display: block;
-    padding: 10px 15px;
+    padding: 12px 16px;
     color: #333;
     text-decoration: none;
-    transition: background-color 0.3s ease, color 0.3s ease;
-    text-align: left;
-    border-radius: 4px;
-    margin: 2px 10px;
+    transition: background-color 0.3s ease;
 }
 
+/* Hover effect for links */
 .dropdown-content a:hover {
-    background-color: rgba(0, 123, 255, 0.1); /* Button's hover color in dropdown */
-    color: #007bff;
+    background-color: rgba(0, 0, 0, 0.05);
 }
+
+/* Content Styling */
+h1 {
+    font-size: 24px;
+}
+
 
 /* Dynamic Content Styles */
 @keyframes slideIn {

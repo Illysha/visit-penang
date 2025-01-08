@@ -46,15 +46,6 @@ export const TouristSpots = () => {
                         <p>Escape the city buzz and ascend into the serene beauty of Penang Hill, a hill resort
                             nestled in the lush highlands of Air Itam. Known as Bukit Bendera in Malay, this
                             iconic destination boasts cool weather, panoramic views, and a rich historical charm.</p>
-                        <p>Revel in the breathtaking sights from the hill’s summit, which stands 833 meters
-                            (2,733 feet) above sea level. Explore its nature trails, colonial-era bungalows, and
-                            cultural landmarks like The Habitat and Owl Museum. Penang Hill is also a haven for
-                            photographers, offering spectacular sunrise and sunset views over George Town and
-                            the Straits of Malacca.</p>
-                        <p>Access the summit via the Penang Hill Railway, Malaysia’s only funicular railway
-                            system. This scenic ride is an adventure in itself, attracting millions of visitors year
-                            after year. Discover the magic of Penang Hill, where nature and history come together
-                            to create an unforgettable experience..</p>
                         <p>For directions to Penang Hill, visit the <a
                             href="https://www.bing.com/maps?osid=846390ec-0d77-4219-a992-ce6c14fa77d0&cp=5.419768~100.269899&lvl=16&style=h&pi=0&v=2&sV=2&form=S00027"
                             target="_blank" rel="noopener noreferrer">Penang Hill location on Bing Maps</a>.</p>
@@ -68,16 +59,6 @@ export const TouristSpots = () => {
                             destination. Located along the iconic Gurney Drive, this picturesque spot offers
                             something for everyone, whether you're a nature enthusiast, food lover, or simply
                             seeking a serene escape.
-                        </p>
-                        <p>Take a leisurely stroll alon g the beautifully designed boardwalk, surrounded by lush
-                            greenery and breathtaking ocean views. Gurney Bay features family-friendly parks,
-                            scenic picnic areas, and well-maintained cycling paths, making it an ideal outing for
-                            families, couples, and solo travelers alike.
-                        </p>
-                        <p>Don’t miss the bustling food haven nearby, where you can savor local delights like
-                            char kway teow, laksa, and freshly grilled seafood. As the sun sets, Gurney Bay
-                            transforms into a magical space, perfect for capturing picture-perfect moments. Visit
-                            today and immerse yourself in this coastal paradise!
                         </p>
                         <p>For directions to Gurney Bay, visit the <a
                             href="https://www.bing.com/maps?osid=49b33735-e9eb-421d-90a7-2e857e66fae3&cp=57.800002~-154.763653&lvl=16&pi=0&v=2&sV=2&form=S00027"
@@ -113,14 +94,6 @@ export const TouristSpots = () => {
                         <p>Batu Ferringhi is Penang’s ultimate beach destination, known for its golden sands,
                             sparkling blue waters, and vibrant atmosphere. Whether you're looking for a laid-back
                             retreat or an action-packed adventure, this seaside escape has it all.</p>
-                        <p>Soak up the sun on pristine beaches or dive into thrilling water sports, including jet
-                            skiing, parasailing, and banana boat rides. As evening approaches, explore the famous
-                            Batu Ferringhi Night Market, where you can shop for unique souvenirs, artisanal
-                            crafts, and delicious street food.</p>
-                        <p>For those seeking tranquility, the beachfront resorts and quaint cafés offer a perfect
-                            setting to relax and watch the waves roll in. Whether you're visiting with friends,
-                            family, or that special someone, Batu Ferringhi promises unforgettable memories.
-                        </p>
                         <p>For directions to Batu Ferringhi, visit the <a
                             href="https://www.bing.com/maps?osid=48ca7891-e355-414a-9f3a8bb347e569a3&cp=5.471737~100.256734&lvl=14.836926&style=h&pi=0&imgid=46bcca5b-feb7-49cb-94ac-51e2fae55ea3&v=2&sV=2&form=S00027"
                             target="_blank" rel="noopener noreferrer">Batu Ferringhi location on Bing Maps</a>.</p>
