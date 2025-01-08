@@ -103,7 +103,7 @@ nav a:hover {
     border-radius: 20px;
     padding: 10px;
     justify-content: center;
-    background-color: lightpink;
+    background-image: url('https://images.pexels.com/photos/10526919/pexels-photo-10526919.jpeg?auto=compress&cs=tinysrgb&w=600');
 }
 
 .image-text-pair img {
