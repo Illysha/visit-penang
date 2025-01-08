@@ -1,6 +1,6 @@
 /* General Styles */
 html, body {
-    height: 100%; /* Ensure full viewport height */
+    height: 100%;
     margin: 0;
     padding: 0;
 }
@@ -15,11 +15,10 @@ body {
 header {
     color: white;
     text-align: center;
-    background-image: url('https://www.cuticuti-malaysia.com/wp-content/uploads/2018/12/penang.jpg'); /* Replace with your image path */
+    background-image: url('https://www.cuticuti-malaysia.com/wp-content/uploads/2018/12/penang.jpg');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
-    min-height: 100vh;
+    min-height: 50vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,7 +31,7 @@ nav {
     display: flex;
     justify-content: center;
     background-color: #000000;
-    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    flex-wrap: wrap;
 }
 
 nav a {
@@ -48,16 +47,9 @@ nav a:hover {
 
 /* Main Content Sections */
 .section {
-    margin: 20px;
     padding: 20px;
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center content horizontally */
-    justify-content: center; /* Center content vertically */
-    text-align: center; /* Ensure text inside is also centered */
-    /* Allows sections to grow and take space */
+    margin: 10px;
+    flex-grow: 1;
 }
 
 .section h2 {
@@ -76,6 +68,32 @@ nav a:hover {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+/* New Styles for Image and Text Pairing */
+.image-text-pair {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px; /* Add space between pairs */
+}
+
+.image-text-pair img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; /* Makes the image round */
+    object-fit: cover;
+}
+
+.image-text-pair .text {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.image-text-pair + .image-text-pair {
+    border-top: 2px solid #ddd; /* Separator between pairs */
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
 /* Footer */
 footer {
     background-color: #000000;
@@ -86,8 +104,6 @@ footer {
 }
 
 /* Media Queries */
-
-/* For tablets and smaller screens (portrait mode) */
 @media screen and (max-width: 768px) {
     nav {
         flex-direction: column;
@@ -95,7 +111,6 @@ footer {
     }
 }
 
-/* For extra small screens (phones in portrait) */
 @media screen and (max-width: 480px) {
     header h1 {
         font-size: 1.5rem;
@@ -105,3 +120,6 @@ footer {
         font-size: 1rem;
     }
 }
+
+
+
