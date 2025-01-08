@@ -153,8 +153,8 @@ nav a:hover {
 }
 
 .image-text-pair img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     object-fit: cover;
     margin-right: 20px;
@@ -162,13 +162,13 @@ nav a:hover {
 
 .image-text-pair .text {
     flex: 1;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 1.6;
     text-align: left;
 }
 
 .image-text-pair .text h2 {
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 10px;
     font-weight: 700;
 }
@@ -182,7 +182,7 @@ nav a:hover {
 /* Optional: Add styling to the content inside */
 .text p {
     margin-bottom: 15px;
-    font-size: 16px;
+    font-size: 25px;
 }
 
 #dynamic-content .heading {
