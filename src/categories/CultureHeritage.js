@@ -58,7 +58,7 @@ export const CultureHeritage = () => {
                                 that shaped Penang over the centuries.
                             </p>
                         </div>
-                </div>
+                    </div>
 
 
                     <div className="image-text-pair"
