@@ -26,7 +26,13 @@ header {
     color: #000000;
     text-align: center;
     font-size: calc(10px + 2vmin);
-    background-image: url('https://pin.it/3W5hQ6NgS') ;
+    background-image: url('https://i.pinimg.com/736x/a1/62/d6/a162d6d28d6ed0e011e51f82f067c3eb.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    align-items: center;
+    justify-content: center;
+
 }
 
 
