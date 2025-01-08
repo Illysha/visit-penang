@@ -1,9 +1,9 @@
 /* General Styles */
-html, body {
+/*html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-}
+}*/
 
 body {
     font-family: Arial, sans-serif;
@@ -17,7 +17,7 @@ body {
 header {
     color: #000000;
     text-align: center;
-    background-color:#f2ebde;
+    background-image:url('https://i.pinimg.com/736x/2d/3b/7f/2d3b7f0a239a2b4d847d2e247a19d5e6.jpg');
     border-bottom-left-radius: 50% 20px; /* Adjust the values to achieve a semi-spherical shape */
     border-bottom-right-radius: 50% 20px; /* Same as above, for the right side */
 }
@@ -33,10 +33,11 @@ header h1.custom-font {
 }
 
 header p {
-    font-size: 16px; /* Adjust size for other paragraphs */
+    font-size: 20px; /* Adjust size for other paragraphs */
     line-height: 0.8; /* Make text lines closer together */
     color: #000000; /* Optional: Default text color */
     margin: 10px; /* Remove extra spacing between paragraphs */
+    font-weight: bold;
 }
 
 
@@ -75,7 +76,6 @@ nav a:hover {
 #dynamic-content {
     margin: 20px auto;
     max-width: 1000px;
-    background: #f1d7e5;
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 20px;

@@ -2,9 +2,9 @@ import React from "react";
 
 export const CultureHeritage = () => {
     return (
-        <div>
-            <h1>Culture & Heritage</h1>
-            <p>
+        <div style={{textAlign: 'center'}}>
+            <h1 style="font-family: 'Odor Mean Chey',font-weight: bold ">Culture & Heritage</h1>
+            <p style="font-family: 'Hedvig Letters Serif'">
                 Penang is rich in culture and history. Explore George Town, a UNESCO World Heritage Site, and learn
                 about its diverse cultural influences through museums, temples, and traditional festivals.
             </p>
