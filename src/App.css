@@ -77,10 +77,11 @@ nav a:hover {
 }
 
 .image-text-pair img {
-    width: 120px;
+    /*width: 120px;*/
     height: 120px;
     border-radius: 50%; /* Makes the image round */
     object-fit: cover;
+    width: 100%;
 }
 
 .image-text-pair .text {
@@ -89,7 +90,7 @@ nav a:hover {
 }
 
 .image-text-pair + .image-text-pair {
-    border-top: 2px solid #ddd; /* Separator between pairs */
+    border-top: 2px solid #000000; /* Separator between pairs */
     padding-top: 20px;
     margin-top: 20px;
 }
