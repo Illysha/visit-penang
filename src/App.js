@@ -16,6 +16,7 @@ const App = () => {
         "hotels": { title: "Hotels", content: <Hotels /> },
     };
 
+
     // State to manage the current category
     const [currentCategory, setCurrentCategory] = useState("about-us");
 
