@@ -2,8 +2,8 @@ import React from "react";
 
 export const CultureHeritage = () => {
     return (
-        <div style={{textAlign: 'center'}}>
-            <h1 style="font-family: 'Odor Mean Chey',font-weight: bold ">
+        <div>
+            <h1>
                 Culture & Heritage
             </h1>
             <p>
