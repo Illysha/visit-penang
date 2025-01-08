@@ -9,14 +9,18 @@ body {
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
-    background-image: url('https://images.pexels.com/photos/731217/pexels-photo-731217.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-image: url('https://www.cuticuti-malaysia.com/wp-content/uploads/2018/12/penang.jpg');
+    background-repeat: no-repeat;  /* Prevent the image from repeating */
+    background-size: cover;       /* Ensure the image covers the entire body */
+    background-position: center;  /* Center the image */
 }
+
 
 /* Header */
 header {
     color: white;
     text-align: center;
-    background-image: url('https://www.cuticuti-malaysia.com/wp-content/uploads/2018/12/penang.jpg');
+    background-image: url('https://i.pinimg.com/236x/19/1a/f4/191af47275ea2c82d94eeb35d4b66e7a.jpg');
     background-size: cover;
     background-position: center;
     min-height: 50vh;
