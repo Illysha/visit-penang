@@ -31,19 +31,42 @@ const App = () => {
     return (
         <div>
             <nav>
-                {Object.keys(categories).map((key) => (
-                    <a
-                        key={key}
-                        href={`#${key}`}
-                        onClick={(e) => {
+                {Object.keys(categories).map((key) => {
+                    const category = categories[key];
+                    return category.subcategories ? (
+                        <div className="dropdown" key={key}>
+                            <a href={`#${key}`} onClick={(e) => {
+                                e.preventDefault();
+                                loadCategory(key);
+                            }}>
+                                {category.title}
+                            </a>
+                            <div className="dropdown-content">
+                                {category.subcategories.map((subKey) => (
+                                    <a
+                                        key={subKey}
+                                        href={`#${subKey}`}
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                            loadCategory(subKey);
+                                        }}
+                                    >
+                                        {category.subcategories[subKey].title}
+                                    </a>
+                                ))}
+                            </div>
+                        </div>
+                    ) : (
+                        <a key={key} href={`#${key}`} onClick={(e) => {
                             e.preventDefault();
                             loadCategory(key);
-                        }}
-                    >
-                        {categories[key].title}
-                    </a>
-                ))}
+                        }}>
+                            {category.title}
+                        </a>
+                    );
+                })}
             </nav>
+
             {/* Render the current category's content */}
             {categories[currentCategory]?.content || <p>Category not found.</p>}
         </div>
