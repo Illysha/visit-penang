@@ -5,9 +5,10 @@ export const Hotels = () => {
         <div style={{textAlign: 'center'}}>
             <h1>Accommodation: “Stay in Style: From Luxury to Budget-Friendly Options”</h1>
             <p>
-                Whether you're after ultimate luxury or a more budget-friendly option, Penang has
-                accommodations that cater to every need. With a variety of stays from world-class resorts to
-                unique boutique hotels, you’ll find the perfect place to rest and recharge during your visit.
+                Whether you're after ultimate luxury or a more budget-friendly option, </p>
+            <p> Penang has accommodations that cater to every need. </p>
+            <p> With a variety of stays from world-class resorts to unique boutique hotels, </p>
+            <p>you’ll find the perfect place to rest and recharge during your visit.
             </p>
 
 

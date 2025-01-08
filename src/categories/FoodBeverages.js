@@ -7,9 +7,9 @@ export const FoodBeverages = () => {
         <div style={{textAlign: 'center'}}>
             <h1>Savor Penang’s Flavors: “A Culinary Journey Through Penang’s Best Tastes”</h1>
             <p>
-                Indulge in a world of flavors as you explore Penang’s diverse and tantalizing cuisine. From
-                rich and spicy dishes to refreshing desserts, Penang’s food scene will excite your taste buds.
-                Immerse yourself in the island’s culinary delights and savor the true essence of Penang.
+                Indulge in a world of flavors as you explore Penang’s diverse and tantalizing cuisine.</p>
+            <p>From rich and spicy dishes to refreshing desserts, Penang’s food scene will excite your taste buds.</p>
+            <p>Immerse yourself in the island’s culinary delights and savor the true essence of Penang.
             </p>
 
 

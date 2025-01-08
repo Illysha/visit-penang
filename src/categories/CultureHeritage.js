@@ -5,8 +5,10 @@ export const CultureHeritage = () => {
         <div style={{textAlign: 'center'}}>
             <h1>Culture & Heritage</h1>
             <p>
-                Penang is rich in culture and history. Explore George Town, a UNESCO World Heritage Site, and learn
-                about its diverse cultural influences through museums, temples, and traditional festivals.
+                Penang is rich in culture and history. </p>
+            <p> Explore George Town, a UNESCO World Heritage Site, and learn</p>
+            <p>about its diverse cultural influences </p>
+            <p>through museums, temples, and traditional festivals.
             </p>
 
 

@@ -6,9 +6,9 @@ export const TouristSpots = () => {
             <h1>Must-Visit Destinations: “Top Spots You Can't Miss in Penang”</h1>
             <p>
                 “From breathtaking views to vibrant landscapes, Penang offers a range of unmissable
-                destinations that promise unforgettable experiences. Whether you’re seeking nature,
-                adventure, or tranquility, Penang has something to captivate every traveler. Start your journey
-                and uncover the beauty of this incredible island!
+                destinations that promise unforgettable experiences. </p>
+            <p> Whether you’re seeking nature, adventure, or tranquility, Penang has something to captivate every traveler. </p>
+            <p>Start your journey and uncover the beauty of this incredible island!
             </p>
 
 
