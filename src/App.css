@@ -91,10 +91,6 @@ header p {
 }
 
 
-/* General Styles */
-body {
-    font-family: Arial, sans-serif;
-}
 
 /* Navigation Styling */
 nav {
@@ -113,8 +109,8 @@ nav {
 
 /* Dropdown Button */
 .dropdown-btn {
-    background-color: #4CAF50;
-    color: white;
+    background-color: white;
+    color: #000000;
     padding: 10px 20px;
     font-size: 16px;
     border: none;
@@ -148,7 +144,7 @@ nav {
 /* Dropdown Links */
 .dropdown-content a {
     display: block;
-    padding: 12px 16px;
+    padding: 16px 16px;
     color: #333;
     text-decoration: none;
     transition: background-color 0.3s ease;
@@ -323,11 +319,45 @@ footer {
     animation: footerFadeIn 1s ease-in-out;
 }
 
-/* Media Queries */
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 1024px) {
+    header h1.custom-font {
+        font-size: 2.5rem;
+    }
+
+    .image-text-pair {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .dropdown-content a {
+        font-size: 14px;
+        padding: 12px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     nav {
         flex-direction: column;
         align-items: center;
+    }
+
+    .dropdown-btn {
+        width: 100%;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .image-text-pair {
+        flex-direction: column;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1.2rem;
     }
 }
 
@@ -336,11 +366,23 @@ footer {
         font-size: 1.5rem;
     }
 
-    nav a {
-        font-size: 1rem;
+    .dropdown-btn {
+        font-size: 14px;
+    }
+
+    .dropdown-content a {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .about-us-container h1 {
+        font-size: 2em;
+    }
+
+    .about-us-container p {
+        font-size: 1em;
     }
 }
-
 
 
 
