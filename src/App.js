@@ -16,7 +16,6 @@ const App = () => {
         "hotels": { title: "Hotels", content: <Hotels /> },
     };
 
-
     // State to manage the current category
     const [currentCategory, setCurrentCategory] = useState("about-us");
 
@@ -45,13 +44,11 @@ const App = () => {
                     </a>
                 ))}
             </nav>
-            <div id="dynamic-content">
-                {categories[currentCategory]?.content || <p>Category not found.</p>}
-
-             </div>
-</div>
-)
-    ;
+            {/* Render the current category's content */}
+            {categories[currentCategory]?.content || <p>Category not found.</p>}
+        </div>
+    );
 };
 
 export default App;
+
