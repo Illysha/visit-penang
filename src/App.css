@@ -48,9 +48,16 @@ nav a:hover {
 
 /* Main Content Sections */
 .section {
+    margin: 20px;
     padding: 20px;
-    margin: 10px;
-    flex-grow: 1; /* Allows sections to grow and take space */
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    text-align: justify-all; /* Ensure text inside is also centered */
+    /* Allows sections to grow and take space */
 }
 
 .section h2 {
