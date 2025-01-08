@@ -15,12 +15,12 @@ body {
 
 /* Header */
 header {
-    color: white;
+    color: #000000 ;
     text-align: center;
-    background-image: url('https://www.cuticuti-malaysia.com/wp-content/uploads/2018/12/penang.jpg');
+    background-color: white ;
     background-size: cover;
     background-position: center;
-    min-height: 50vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,19 +32,19 @@ header {
 nav {
     display: flex;
     justify-content: center;
-    background-color: #000000;
+    background-color: white;
     flex-wrap: wrap;
 }
 
 nav a {
-    color: white;
+    color: #000000;
     text-decoration: none;
     padding: 15px 20px;
-    display: block;
+    margin: 0 5px;
 }
 
 nav a:hover {
-    background-color: #004494;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 /* Main Content Sections */
@@ -62,7 +62,7 @@ nav a:hover {
 /* Dynamic Content Styles */
 #dynamic-content {
     margin: 20px auto;
-    max-width: 1200px;
+    max-width: 1000px;
     background: #f1d7e5;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -75,7 +75,7 @@ nav a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 30px; /* Add space between pairs */
+    margin-bottom: 80px; /* Add space between pairs */
 }
 
 .image-text-pair img {
