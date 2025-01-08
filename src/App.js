@@ -46,17 +46,12 @@ const App = () => {
                 ))}
             </nav>
             <div id="dynamic-content">
-                {currentCategory ? (
-                    <>
-                        <h2>{categories[currentCategory].title}</h2>
-                        {categories[currentCategory].content}
-                    </>
-                ) : (
-                    <p>Category not found.</p>
-                )}
-            </div>
-        </div>
-    );
+                {categories[currentCategory]?.content || <p>Category not found.</p>}
+
+             </div>
+</div>
+)
+    ;
 };
 
 export default App;
