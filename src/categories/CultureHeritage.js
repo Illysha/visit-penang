@@ -27,15 +27,22 @@ export const CultureHeritage = () => {
 
             {/* Dynamic Content Section with Image-Text Pairs */}
             <div id="dynamic-content">
+
                 <div className="image-text-pair" style={{display: 'flex', alignItems: 'center', marginBottom: '30px'}}>
                     <img
-                        src="path_to_image_1.jpg"
-                        alt="Image 1"
-                        style={{width: '120px', height: '120px', borderRadius: '50%', objectFit: 'cover', marginRight: '20px'}}
+                        src="path_to_image_2.jpg"
+                        alt="Image 2"
+                        style={{
+                            width: '120px',
+                            height: '120px',
+                            borderRadius: '50%',
+                            objectFit: 'cover',
+                            marginRight: '20px'
+                        }}
                     />
                     <div className="text" style={{flex: 1}}>
-                        <h3>Title 1</h3>
-                        <p>Description of the first pair.</p>
+                        <h3>Title 2</h3>
+                        <p>Description of the second pair.</p>
                     </div>
                 </div>
 
@@ -43,7 +50,13 @@ export const CultureHeritage = () => {
                     <img
                         src="path_to_image_2.jpg"
                         alt="Image 2"
-                        style={{width: '120px', height: '120px', borderRadius: '50%', objectFit: 'cover', marginRight: '20px'}}
+                        style={{
+                            width: '120px',
+                            height: '120px',
+                            borderRadius: '50%',
+                            objectFit: 'cover',
+                            marginRight: '20px'
+                        }}
                     />
                     <div className="text" style={{flex: 1}}>
                         <h3>Title 2</h3>
@@ -55,7 +68,13 @@ export const CultureHeritage = () => {
                     <img
                         src="path_to_image_3.jpg"
                         alt="Image 3"
-                        style={{width: '120px', height: '120px', borderRadius: '50%', objectFit: 'cover', marginRight: '20px'}}
+                        style={{
+                            width: '120px',
+                            height: '120px',
+                            borderRadius: '50%',
+                            objectFit: 'cover',
+                            marginRight: '20px'
+                        }}
                     />
                     <div className="text" style={{flex: 1}}>
                         <h3>Title 3</h3>
