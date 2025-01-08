@@ -28,6 +28,24 @@ header {
     font-size: calc(10px + 2vmin);
 }
 
+header p.small-text {
+    font-size: 12px; /* Make the first paragraph smaller */
+    color: white; /* Optional: Add subtle styling */
+}
+
+header h1.custom-font {
+    font-size: 48px; /* Make the header larger */
+    font-family: 'Lobster', serif; /* Use a custom font, or load one via Google Fonts */
+    font-weight: bold; /* Optional for emphasis */
+    color: white; /* Optional: Add a color */
+}
+
+header p {
+    font-size: 16px; /* Adjust size for other paragraphs */
+    line-height: 1.5; /* Improve readability */
+    color: white; /* Optional: Default text color */
+}
+
 /* Navigation */
 nav {
     display: flex;
