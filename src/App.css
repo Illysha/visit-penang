@@ -14,10 +14,19 @@ body {
 
 
 /* Header */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 header {
     color: #000000;
     text-align: center;
-    background-image:url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Ffreebackground%2Faerial-view-penang-bridge-in-morning_15509808.html&psig=AOvVaw3ev7kPYBEytx-7vSiWUpl1&ust=1736426245555000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOiDiO6S5ooDFQAAAAAdAAAAABAR');
+    background-image:url('https://media.istockphoto.com/id/638374196/photo/2nd-penang-bridge-during-dawn.jpg?s=612x612&w=0&k=20&c=UHgki-xLArO9sEmrRGq3GtwsoAy7B21ptwknPjHQds4=');
     min-height: 90vh;
     background-size: cover;
     background-position: center;
@@ -26,23 +35,22 @@ header {
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
+    animation: fadeIn 2s ease-in-out;
 }
 
-
-
 header h1.custom-font {
-    font-size: 52px; /* Make the header larger */
-    font-family: 'Quicksand', serif; /* Use a custom font, or load one via Google Fonts */
-    font-weight: bold; /* Optional for emphasis */
-    color: #000000; /* Optional: Add a color */
-    margin-bottom: 10px; /* Reduce spacing between header and following text */
+    font-size: 52px;
+    font-family: 'Quicksand', serif;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 10px;
 }
 
 header p {
-    font-size: 20px; /* Adjust size for other paragraphs */
-    line-height: 0.8; /* Make text lines closer together */
-    color: #000000; /* Optional: Default text color */
-    margin: 10px; /* Remove extra spacing between paragraphs */
+    font-size: 20px;
+    line-height: 0.8;
+    color: #000000;
+    margin: 10px;
     font-weight: bold;
 }
 
@@ -60,32 +68,32 @@ nav a {
     text-decoration: none;
     padding: 15px 20px;
     margin: 0 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 nav a:hover {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.1);
+    transform: scale(1.1);
 }
 
-/* Main Content Sections */
-.section {
-    padding: 20px;
-    margin: 10px;
-    flex-grow: 1;
-}
-
-.section h2 {
-    text-align: center;
-    color: #007bff;
-}
 
 /* Dynamic Content Styles */
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
 #dynamic-content {
     margin: 20px auto;
     max-width: 1000px;
     border: 1px solid #f1e8d7;
     border-radius: 8px;
     padding: 20px;
-    /*box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/
+    animation: slideIn 0.8s ease-out;
 }
 
 /* New Styles for Image and Text Pairing */
@@ -102,9 +110,9 @@ nav a:hover {
 }
 
 .image-text-pair img {
-    width: 60px;  /* Fixed size for the image */
-    height: 60px; /* Fixed size for the image */
-    border-radius: 50%; /* Makes the image round */
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
     object-fit: cover;
     background-position: center;
 }
@@ -112,7 +120,13 @@ nav a:hover {
 .image-text-pair .text {
     flex: 1;
     margin-left: 20px;
-    text-align: left; /* Align text as needed */
+    text-align: left;
+}
+
+.image-text-pair:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .image-text-pair + .image-text-pair {
@@ -123,14 +137,23 @@ nav a:hover {
 }
 
 
-
 /* Footer */
+@keyframes footerFadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 footer {
     background-color: #000000;
     color: #ded7dd;
     text-align: center;
     padding: 10px;
     width: 100%;
+    animation: footerFadeIn 1s ease-in-out;
 }
 
 /* Media Queries */
@@ -150,6 +173,7 @@ footer {
         font-size: 1rem;
     }
 }
+
 
 
 
