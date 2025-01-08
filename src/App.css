@@ -5,25 +5,37 @@ html, body {
     padding: 0;
 }
 
-@keyframes gradientShift {
-    0% {
-        background: linear-gradient(135deg, #cfaae6, #e6c0f3);
-    }
-    50% {
-        background: linear-gradient(135deg, #e6c0f3, #cfaae6);
-    }
-    100% {
-        background: linear-gradient(135deg, #cfaae6, #e6c0f3);
-    }
-}
-
 body {
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(135deg, #cfaae6, #e6c0f3);
-    animation: gradientShift 6s infinite alternate;
+    background-color: #cfaae6;
+    position: relative;
+    overflow: hidden;
 }
+
+body::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.2) 1%, transparent 1%);
+    background-size: 10px 10px;
+    animation: particles 10s linear infinite;
+    z-index: -1;
+}
+
+@keyframes particles {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-50%, -50%);
+    }
+}
+
 
 
 
@@ -40,9 +52,9 @@ body {
 header {
     color: #000000;
     text-align: center;
-    background-image: url('https://images.pexels.com/photos/33545/sunrise-phu-quoc-island-ocean.jpg?auto=compress&cs=tinysrgb&w=600');
+    background-image: url('https://images.pexels.com/photos/3293148/pexels-photo-3293148.jpeg?auto=compress&cs=tinysrgb&w=600');
     min-height: 60vh; /* Reduce the height to make the section smaller */
-    background-size: 80%; /* Adjust the size of the background image */
+    background-size: 100%; /* Adjust the size of the background image */
     background-repeat: no-repeat; /* Ensure the image does not repeat */
     background-position: center;
     display: flex;
