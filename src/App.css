@@ -28,7 +28,7 @@ body {
 header {
     color: #000000;
     text-align: center;
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQy9ojloncKnA5wtsvIAkSjlPj6Cx5DbC0LA&s');
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT48XU5cLXU_UC5UHlMrjeV3SnpK-Bs2WKing&s');
     min-height: 60vh; /* Reduce the height to make the section smaller */
     background-size: 100%; /* Adjust the size of the background image */
     background-repeat: no-repeat; /* Ensure the image does not repeat */
@@ -99,42 +99,33 @@ nav a:hover {
     animation: slideIn 0.8s ease-out;
 }
 
-/* New Styles for Image and Text Pairing */
 .image-text-pair {
     display: flex;
-    align-items: center;
-    margin-bottom: 80px;
+    flex-direction: column; /* Arrange content vertically */
+    align-items: center; /* Center align the items horizontally */
+    margin-bottom: 20px; /* Adjust margin for spacing */
     border-radius: 20px;
-    padding: 10px;
+    padding: 20px;
     justify-content: center;
     background-image: url('https://images.pexels.com/photos/10526919/pexels-photo-10526919.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+    background-position: center;
+    text-align: center; /* Center text alignment */
 }
 
 .image-text-pair img {
-    width: 60px;
-    height: 60px;
+    width: 80px; /* Adjust size for better vertical layout */
+    height: 80px;
     border-radius: 50%;
     object-fit: cover;
     background-position: center;
+    margin-bottom: 10px; /* Add space between image and text */
 }
 
 .image-text-pair .text {
-    flex: 1;
-    margin-left: 20px;
-    text-align: left;
-}
-
-.image-text-pair:hover {
-    transform: scale(1.05);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.image-text-pair + .image-text-pair {
-    border-top: 2px solid #000000;
-    padding-top: 20px;
-    margin-top: 20px;
-    width: 100%;
+    flex: none; /* Prevent text from stretching */
+    margin-left: 0; /* Remove left margin for vertical alignment */
+    text-align: center; /* Center-align the text */
 }
 
 
