@@ -9,6 +9,7 @@ body {
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
+    background-image: url('https://images.pexels.com/photos/731217/pexels-photo-731217.jpeg?auto=compress&cs=tinysrgb&w=600);
 }
 
 /* Header */
@@ -77,8 +78,8 @@ nav a:hover {
 }
 
 .image-text-pair img {
-    width: 200px;
-    height: 200px;
+    width: 700px;
+    height: 600px;
     border-radius: 80%; /* Makes the image round */
     object-fit: cover;
     background-position: center;
