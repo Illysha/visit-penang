@@ -17,7 +17,7 @@ body {
 header {
     color: #000000;
     text-align: center;
-    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ2g2kJqfl3B8rBVx6Hge9fgOL8AmUjkeLrg&s');
+    background-image:url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Ffreebackground%2Faerial-view-penang-bridge-in-morning_15509808.html&psig=AOvVaw3ev7kPYBEytx-7vSiWUpl1&ust=1736426245555000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOiDiO6S5ooDFQAAAAAdAAAAABAR');
     min-height: 90vh;
     background-size: cover;
     background-position: center;
@@ -98,7 +98,7 @@ nav a:hover {
     padding: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     justify-content: center;
-    background-color: #ffffff;
+    background-color: #f1e8d7;
 }
 
 .image-text-pair img {
