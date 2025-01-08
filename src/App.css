@@ -26,20 +26,18 @@ header {
     color: white;
     text-align: center;
     font-size: calc(10px + 2vmin);
-    background-image: url('https://i.pinimg.com/236x/ae/91/e9/ae91e9687792f0291b801c7ace1e68dc.jpg'),
-    url('https://i.pinimg.com/736x/37/5e/04/375e040e982083a2ec1f5d2ee36c928d.jpg'),
-    url('https://i.pinimg.com/736x/8a/20/4a/8a204a6a60fdef24baa2f05b05ebd743.jpg');
+    background-image: url('https://i.pinimg.com/736x/8a/20/4a/8a204a6a60fdef24baa2f05b05ebd743.jpg');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    animation: slideBackgrounds 3s ease-in-out infinite;
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+    background-repeat: no-repeat; /* Prevents tiling of the image */
     min-height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     position: relative;
+    animation: changeBackground 15s ease-in-out infinite; /* Animation for changing backgrounds */
 }
 
 /* Gradient Overlay */
@@ -50,8 +48,8 @@ header::before {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 1;
+    background: rgba(0, 0, 0, 0.5); /* Adds dark overlay */
+    z-index: 1; /* Ensures the overlay is beneath the text */
 }
 
 /* Header text */
@@ -59,49 +57,38 @@ header h1.custom-font {
     font-size: 52px;
     font-family: 'Quicksand', serif;
     font-weight: bold;
-    color: #FFFFFF;
+    color: #FFFFFF; /* White color for better contrast on the overlay */
     margin-bottom: 10px;
-    z-index: 2;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    z-index: 2; /* Ensures the header text stays on top of the overlay */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Adds a shadow for better readability */
 }
 
 /* Subheading text */
 header p {
-    font-family: 'Dancing Script', serif;
     font-size: 20px;
     line-height: 0.8;
-    color: #FFFFFF;
+    color: #FFFFFF; /* White for better contrast */
     margin: 10px;
     font-weight: bold;
-    z-index: 2;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+    z-index: 2; /* Ensures the paragraph stays on top */
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7); /* Adds a subtle shadow effect */
 }
 
-/* Animation for background images */
-@keyframes slideBackgrounds {
+/* Animation for changing background images */
+@keyframes changeBackground {
     0% {
-        background-image: url('https://i.pinimg.com/236x/2a/a7/5c/2aa75c8bd6e254fb08f8860c1d0471a9.jpg'),
-        url('https://i.pinimg.com/736x/8a/20/4a/8a204a6a60fdef24baa2f05b05ebd743.jpg'),
-        url('https://i.pinimg.com/736x/8a/20/4a/8a204a6a60fdef24baa2f05b05ebd743.jpg');
+        background-image: url('https://i.pinimg.com/736x/37/5e/04/375e040e982083a2ec1f5d2ee36c928d.jpg');
     }
     33% {
-        background-image: url('https://i.pinimg.com/236x/2a/a7/5c/2aa75c8bd6e254fb08f8860c1d0471a9.jpg'),
-        url('https://i.pinimg.com/736x/8a/20/4a/8a204a6a60fdef24baa2f05b05ebd743.jpg'),
-        url('https://i.pinimg.com/736x/8a/20/4a/8a204a6a60fdef24baa2f05b05ebd743.jpg');
+        background-image: url('https://i.pinimg.com/736x/37/5e/04/375e040e982083a2ec1f5d2ee36c928d.jpg');
     }
     66% {
-        background-image: url('https://i.pinimg.com/236x/2a/a7/5c/2aa75c8bd6e254fb08f8860c1d0471a9.jpg'),
-        url('https://i.pinimg.com/736x/8a/20/4a/8a204a6a60fdef24baa2f05b05ebd743.jpg'),
-        url('https://i.pinimg.com/736x/8a/20/4a/8a204a6a60fdef24baa2f05b05ebd743.jpg');
+        background-image: url('https://i.pinimg.com/736x/0e/75/e5/0e75e5f28f84ea001ed81ad01a010c97.jpg');
     }
     100% {
-        background-image: url('https://i.pinimg.com/236x/2a/a7/5c/2aa75c8bd6e254fb08f8860c1d0471a9.jpg'),
-        url('https://i.pinimg.com/736x/8a/20/4a/8a204a6a60fdef24baa2f05b05ebd743.jpg'),
-        url('https://i.pinimg.com/736x/8a/20/4a/8a204a6a60fdef24baa2f05b05ebd743.jpg');
+        background-image: url('https://i.pinimg.com/736x/69/0d/bc/690dbc620458f1c4b407682618f02c4b.jpg');
     }
 }
-
-
 
 
 /* Navigation */

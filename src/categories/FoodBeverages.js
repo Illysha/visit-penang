@@ -19,7 +19,7 @@ export const FoodBeverages = () => {
                 <iframe
                     width="100%"
                     height="315"
-                    src="https://youtu.be/6UKN1YpVweg?si=YOlvOF61PGHl63Ki"
+                    src="https://youtu.be/6UKN1YpVweg"
                     title="YouTube video player"
                     frameBorder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
