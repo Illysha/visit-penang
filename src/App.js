@@ -45,6 +45,20 @@ const App = () => {
         },
     };
 
+    const categories = {
+        "about-us": { title: "About Us", content: <AboutUs /> },
+        "restaurants": { title: "Restaurants", content: <p>Restaurant content here...</p> },
+        "cafes": { title: "Cafes", content: <p>Cafe content here...</p> },
+        "beaches": { title: "Beaches", content: <p>Beach content here...</p> },
+        "parks": { title: "Parks", content: <p>Parks content here...</p> },
+        "museums": { title: "Museums", content: <p>Parks content here...</p> },
+        "historical-sites": { title: "Historical Sites", content: <p>Parks content here...</p> },
+        "luxury": { title: "Luxury", content: <p>Parks content here...</p> },
+        "budget": { title: "Budget", content: <p>Parks content here...</p> },
+        // Add other subcategories here
+    };
+
+
     // State to manage the current category
     const [currentCategory, setCurrentCategory] = useState("about-us");
 
