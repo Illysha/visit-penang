@@ -95,22 +95,17 @@ nav a:hover {
 .image-text-pair {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     margin-bottom: 80px; /* Add space between pairs */
-}
-
-.image-text-pair .image-container {
-    width: 700px;
     height: 600px;
+    width: 700px;
     border: 2px solid #000000; /* Add a border around the box */
     border-radius: 20px; /* Rounded corners for the box */
     padding: 10px; /* Space between the image and the box */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
-    display: flex;
     justify-content: center;
-    align-items: center;
     background-color: #ffffff; /* Optional: Add a background color */
 }
+
 
 .image-text-pair img {
     width: 100%;
