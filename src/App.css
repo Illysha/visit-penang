@@ -55,7 +55,7 @@ header::before {
 /* Header text */
 header h1.custom-font {
     font-size: 52px;
-    font-family: 'Archivo Black', serif;
+    font-family: 'Cinzel', serif;
     font-weight: bold;
     color: #FFFFFF; /* White color for better contrast on the overlay */
     margin-bottom: 10px;
@@ -83,10 +83,10 @@ header p {
         background-image: url('https://www.jomjalan.com/wp-content/uploads/2016/12/penanghill-1.jpg');
     }
     66% {
-        background-image: url('https://i.ytimg.com/vi/5Btx5Pyv3Yo/hqdefault.jpg');
+        background-image: url('https://heartpatrick.com/penang_bridge_aerial_photography/heartpatrick_street_aerial_drone_photography_penang_bridge13.jpg');
     }
     100% {
-        background-image: url('https://i.pinimg.com/736x/69/0d/bc/690dbc620458f1c4b407682618f02c4b.jpg');
+        background-image: url('https://heartpatrick.com/penang10/heartpatrick_penang_pulau_pinang_georgetown_malaysia19.jpg');
     }
 }
 
@@ -143,7 +143,7 @@ nav a:hover {
     background-image: url('https://images.pexels.com/photos/10526919/pexels-photo-10526919.jpeg?auto=compress&cs=tinysrgb&w=600');
     background-size: cover;
     background-position: center;
-    color: #fff;
+    color: #000000;
     transition: all 0.3s ease;
 }
 
@@ -153,8 +153,8 @@ nav a:hover {
 }
 
 .image-text-pair img {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     object-fit: cover;
     margin-right: 20px;
@@ -162,13 +162,13 @@ nav a:hover {
 
 .image-text-pair .text {
     flex: 1;
-    font-size: 18px;
+    font-size: 40px;
     line-height: 1.6;
     text-align: left;
 }
 
 .image-text-pair .text h2 {
-    font-size: 24px;
+    font-size: 40px;
     margin-bottom: 10px;
     font-weight: 700;
 }
@@ -186,7 +186,7 @@ nav a:hover {
 }
 
 #dynamic-content .heading {
-    font-size: 28px;
+    font-size: 40px;
     font-weight: 700;
     margin-bottom: 20px;
     text-align: center;
