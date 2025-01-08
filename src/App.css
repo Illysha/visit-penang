@@ -126,10 +126,49 @@ nav a:hover {
 #dynamic-content {
     margin: 20px auto;
     max-width: 1500px;
-    border-radius: 8px;
+    border-radius: 12px;
     padding: 20px;
     animation: slideIn 0.8s ease-out;
 }
+
+/* New Styles for Image and Text Pairing */
+.image-text-pair {
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+    border-radius: 20px;
+    padding: 10px;
+    justify-content: center;
+    background-image: url('https://images.pexels.com/photos/10526919/pexels-photo-10526919.jpeg?auto=compress&cs=tinysrgb&w=600');
+}
+
+.image-text-pair img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-position: center;
+}
+
+.image-text-pair .text {
+    flex: 1;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.image-text-pair:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-text-pair + .image-text-pair {
+    border-top: 2px solid #000000;
+    padding-top: 20px;
+    margin-top: 20px;
+    width: 100%;
+}
+
 
 
 .about-us-container {
@@ -188,43 +227,6 @@ nav a:hover {
     line-height: 1.6;
 }
 
-/* New Styles for Image and Text Pairing */
-.image-text-pair {
-    display: flex;
-    align-items: center;
-    margin-bottom: 80px;
-    border-radius: 20px;
-    padding: 10px;
-    justify-content: center;
-    background-image: url('https://images.pexels.com/photos/10526919/pexels-photo-10526919.jpeg?auto=compress&cs=tinysrgb&w=600');
-}
-
-.image-text-pair img {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    object-fit: cover;
-    background-position: center;
-}
-
-.image-text-pair .text {
-    flex: 1;
-    margin-left: 20px;
-    text-align: left;
-}
-
-.image-text-pair:hover {
-    transform: scale(1.05);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.image-text-pair + .image-text-pair {
-    border-top: 2px solid #000000;
-    padding-top: 20px;
-    margin-top: 20px;
-    width: 100%;
-}
 
 /* Footer */
 @keyframes footerFadeIn {
