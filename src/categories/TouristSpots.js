@@ -11,16 +11,6 @@ export const TouristSpots = () => {
                 and uncover the beauty of this incredible island!
             </p>
 
-            {/* Image with Title */}
-            <figure style={{textAlign: 'center', marginBottom: '30px'}}>
-                <img
-                    src="https://i.pinimg.com/236x/ae/11/33/ae1133b6f073ba974fdfedb3fa40b299.jpg"
-                    alt="Tourist Spots"
-                    style={{width: '100%', maxWidth: '560px', height: 'auto', borderRadius: '8px'}}
-                />
-                <figcaption style={{fontStyle: 'italic', marginTop: '10px'}}>Discover Penang's Famous Tourist Spots
-                </figcaption>
-            </figure>
 
             {/* YouTube Video */}
             <div style={{textAlign: 'center', marginBottom: '30px'}}>

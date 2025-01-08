@@ -17,7 +17,7 @@ export const Hotels = () => {
                 <iframe
                     width="100%"
                     height="315"
-                    src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+                    src="https://youtu.be/RNbLVFG2pSc?si=1nD_W-v_QUYN2xwt"
                     title="YouTube video player"
                     frameBorder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
