@@ -91,51 +91,62 @@ header p {
 }
 
 
-/* Horizontal Centered Navigation with Dropdown */
+/* Navigation Styling */
 nav {
     display: flex;
     justify-content: center;
     background-color: white;
-    padding: 15px 0;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-nav a {
-    color: #000000;
-    text-decoration: none;
-    padding: 15px 20px;
-    margin: 0 5px;
-    transition: background-color 0.3s ease, transform 0.3s ease;
+/* Dropdown */
+.dropdown {
     position: relative;
+    display: inline-block;
 }
 
-nav a:hover {
-    background-color: rgba(0, 0, 0, 0.1);
-    transform: scale(1.1);
+/* Dropdown Link */
+.dropdown > a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-/* Dropdown Menu */
-nav a:hover .dropdown-content {
-    display: block;
-}
-
+/* Dropdown Content */
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: white;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    min-width: 160px;
+    top: 100%;
+    left: 0;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    z-index: 1000;
+    overflow: hidden;
 }
 
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Dropdown Links */
 .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
+    display: block;
+    padding: 10px 15px;
+    color: #333;
     text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .dropdown-content a:hover {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.05);
+    color: #000;
 }
+
 
 
 /* Dynamic Content Styles */
