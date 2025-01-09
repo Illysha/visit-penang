@@ -1,5 +1,4 @@
 import React from "react";
-import video from "./public/video.mp4"
 
 export const TouristSpots = () => {
     return (
