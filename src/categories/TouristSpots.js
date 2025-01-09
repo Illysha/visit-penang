@@ -22,7 +22,7 @@ export const TouristSpots = () => {
                     controls
                     style={{maxWidth: '560px'}}
                 >
-                    <source src="/categories/SnapTik_App_7348321236805586183-HD.mp4" type="video/mp4"/>
+                    <source src="/categories/Snaptik.app_7348321236805586183.mp4" type="video/mp4"/>
                     Your browser does not support the video tag.
                 </video>
             </div>
