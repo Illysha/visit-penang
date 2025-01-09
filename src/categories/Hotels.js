@@ -68,6 +68,10 @@ export const Hotels = () => {
                         <p>Dive into Penang’s rich heritage by staying at boutique hotels like The Edison George
                             Town or Seven Terraces.
                         </p>
+                        <p>Charming Boutique Hotels: The Edison George Town and Seven Terraces, visit the <a
+                            href="https://www.theedisonhotels.com/?msclkid=d9531073bbd21ae0461a770c609bd80a"
+                            target="_blank" rel="noopener noreferrer">Charming Boutique Hotels: The Edison George Town and Seven Terraces booking on
+                            Bing Maps</a>.</p>
                     </div>
                 </div>
 
@@ -90,6 +94,10 @@ export const Hotels = () => {
                             Wake up to the sounds of nature and unwind under the stars,
                             making your stay in Penang truly unforgettable.
                         </p>
+                        <p>Unique Stays for Adventurers: Boulder Valley Glamping, visit the <a
+                            href="https://bouldervalleyglamping.com.my/the-tent"
+                            target="_blank" rel="noopener noreferrer">Unique Stays for Adventurers: Boulder Valley Glamping booking on
+                            Bing Maps</a>.</p>
                     </div>
                 </div>
                 <div className="image-text-pair" style={{display: 'flex', alignItems: 'center', marginBottom: '30px'}}>
