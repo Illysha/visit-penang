@@ -277,12 +277,70 @@ h1 {
     font-size: 1.5em;
     color: #333;
     margin-bottom: 15px;
+    text-decoration: underline;
 }
+
 
 .about-description p {
     font-size: 1.1em;
     color: #666;
     line-height: 1.6;
+}
+
+.news-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between; /* Ensures equal spacing between containers */
+    margin: 20px;
+}
+
+.news-container {
+    flex: 1 1 calc(33.333% - 20px); /* Three containers per row */
+    max-width: calc(33.333% - 20px); /* Ensures proper alignment */
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box; /* Includes padding and border in width/height */
+}
+
+.news-container h2 {
+    font-size: 1.5em;
+    color: #444;
+    margin-bottom: 15px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.news-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.news-list li {
+    margin-bottom: 10px;
+}
+
+.news-list a {
+    text-decoration: none;
+    font-size: 1.1em;
+    color: #0073e6;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.news-list a:hover {
+    color: #005bb5;
+    text-decoration: underline;
+}
+
+/* Responsive Design: Single column on smaller screens */
+@media (max-width: 768px) {
+    .news-container {
+        flex: 1 1 100%; /* Full width for smaller screens */
+        max-width: 100%;
+    }
 }
 
 
