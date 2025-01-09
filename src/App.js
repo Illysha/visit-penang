@@ -30,7 +30,7 @@ const App = () => {
 
     return (
         <div>
-            {/* Navigation bar as blocks */}
+            {/* Top Navigation Bar */}
             <nav className="nav-blocks">
                 {Object.keys(categories).map((key) => (
                     <button
@@ -52,5 +52,6 @@ const App = () => {
 };
 
 export default App;
+
 
 

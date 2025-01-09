@@ -92,19 +92,25 @@ header p {
 
 /* Navigation Block Styling */
 .nav-blocks {
+    position: sticky; /* Sticks the navigation bar to the top */
+    top: 0;
+    z-index: 10;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 15px;
-    padding: 20px;
-    background-color: #ffffff;
+    padding: 15px 20px;
+    background-color: #ffffff; /* Background color of the navigation bar */
+    border-bottom: 2px solid #ddd; /* Optional border for separation */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adds subtle shadow for better visibility */
 }
 
+/* Individual Navigation Blocks */
 .nav-block {
     display: inline-block;
     background-color: #f1f1f1;
     color: #333;
-    padding: 15px 20px;
+    padding: 10px 15px;
     border: 2px solid transparent;
     border-radius: 8px;
     text-align: center;
@@ -125,6 +131,22 @@ header p {
     color: #ffffff;
     border-color: #3b8c40;
 }
+
+/* Responsive Navigation Blocks */
+@media (max-width: 768px) {
+    .nav-block {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-block {
+        font-size: 12px;
+        padding: 5px 8px;
+    }
+}
+
 
 
 
