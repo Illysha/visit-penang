@@ -7,7 +7,8 @@ export const TouristSpots = () => {
             <p>
                 “From breathtaking views to vibrant landscapes, Penang offers a range of unmissable
                 destinations that promise unforgettable experiences. </p>
-            <p> Whether you’re seeking nature, adventure, or tranquility, Penang has something to captivate every traveler. </p>
+            <p> Whether you’re seeking nature, adventure, or tranquility, Penang has something to captivate every
+                traveler. </p>
             <p>Start your journey and uncover the beauty of this incredible island!
             </p>
 
@@ -15,17 +16,17 @@ export const TouristSpots = () => {
             {/* YouTube Video */}
             <div style={{textAlign: 'center', marginBottom: '30px'}}>
                 <h2>Watch: Explore Penang's Tourist Spots</h2>
-                <iframe
+                <video
                     width="100%"
                     height="315"
-                    src="https://www.youtube.com/embed/3KCOgVq-lCs"
-                    title="YouTube video player"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
+                    controls
                     style={{maxWidth: '560px'}}
-                ></iframe>
+                >
+                    <source src="/categories/SnapTik_App_7348321236805586183-HD.mp4" type="video/mp4"/>
+                    Your browser does not support the video tag.
+                </video>
             </div>
+
 
             {/* Dynamic Content Section with Image-Text Pairs */}
             <div id="dynamic-content">
