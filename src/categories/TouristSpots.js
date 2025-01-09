@@ -1,4 +1,5 @@
 import React from "react";
+import video from "./public/video.mp4"
 
 export const TouristSpots = () => {
     return (
@@ -33,7 +34,7 @@ export const TouristSpots = () => {
                     }}
                 >
                     <source
-                        src="/Snaptik.app_7348321236805586183.mp4"
+                        src="/video.mp4"
                         type="video/mp4"
                     />
                     Your browser does not support the video tag.
