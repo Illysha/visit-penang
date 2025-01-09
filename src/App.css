@@ -6,7 +6,11 @@ html, body {
 
 body {
     font-family: 'Source Sans 3', sans-serif;
-    background-color:#f1ecf3;
+    background-image: url('https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1295,h_720/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/3c5857e2-Explore-Georgetown/ExploreGeorgetownHalfDayCityTour.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+    background-repeat: no-repeat; /* Prevents tiling of the image */
 }
 
 
@@ -113,8 +117,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #f0f0f0; /* Changes background on hover */
-    border-radius: 5px; /* Adds rounded corners on hover */
+    background-color: #000000; /* Changes background on hover */
 }
 
 /*nav a.active {
@@ -297,9 +300,9 @@ h1 {
 }
 
 .news-container {
-    flex: 1 1 calc(33.333% - 20px); /* Three containers per row */
-    max-width: calc(33.333% - 20px); /* Ensures proper alignment */
-    background-color: #f9f9f9;
+    flex: 1 1 calc(45% - 20px); /* Two containers per row */
+    max-width: calc(45% - 20px); /* Adjust width to match */
+    background-color: #375565;
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -309,10 +312,11 @@ h1 {
 
 .news-container h2 {
     font-size: 1.5em;
-    color: #444;
+    color: white;
     margin-bottom: 15px;
     text-align: center;
     text-decoration: underline;
+    font-family: 'Noticia Text', serif;
 }
 
 .news-list {
@@ -327,22 +331,29 @@ h1 {
 .news-list a {
     text-decoration: none;
     font-size: 1.1em;
-    color: #0073e6;
+    color: white ;
     transition: color 0.3s ease, text-decoration 0.3s ease;
 }
 
 .news-list a:hover {
-    color: #005bb5;
+    color: white;
     text-decoration: underline;
 }
 
-/* Responsive Design: Single column on smaller screens */
+@media (min-width: 1200px) {
+    .news-container {
+        flex: 1 1 calc(30% - 20px); /* Three containers per row on larger screens */
+        max-width: calc(30% - 20px);
+    }
+}
+
 @media (max-width: 768px) {
     .news-container {
         flex: 1 1 100%; /* Full width for smaller screens */
         max-width: 100%;
     }
 }
+
 
 
 /* Footer */

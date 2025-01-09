@@ -15,7 +15,7 @@ export const AboutUs = () => {
 
             <div className="about-image">
                 <img
-                    src="https://heartpatrick.com/penang10/heartpatrick_penang_pulau_pinang_georgetown_malaysia03.jpg" // Replace with actual image URL
+                    src="https://mypenang.gov.my/uploads/directory/493/images/logan-heritage.jpg" // Replace with actual image URL
                     alt="Penang"
                     className="about-image-img"
                 />
