@@ -99,18 +99,22 @@ nav {
     position: fixed; /* Makes it stick at the top */
     top: 0; /* Aligns it to the top of the viewport */
     width: 100%; /* Makes it span the full width of the screen */
-    background-color: #000000; /* Background color for visibility */
     z-index: 1000; /* Keeps it above other content */
     display: flex; /* Aligns navigation items horizontally */
     justify-content: center; /* Centers the navigation items */
     gap: 15px; /* Adds spacing between items */
     padding: 10px 20px; /* Adds padding for better spacing */
+    background-image: url('https://wallpaperaccess.com/full/3405900.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+    background-repeat: no-repeat; /* Prevents tiling of the image */
 }
 
 /* Navigation Items */
 nav a {
     text-decoration: underline; /* Adds underline to the text */
-    color: white;
+    color: #000000;
     font-weight: bold;
     /*padding: 10px 15px;*/
     transition: all 0.3s ease;

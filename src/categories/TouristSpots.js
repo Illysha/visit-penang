@@ -17,12 +17,19 @@ export const TouristSpots = () => {
             <div style={{textAlign: 'center', marginBottom: '30px'}}>
                 <h2>Watch: Explore Penang's Tourist Spots</h2>
                 <video
-                    width="100%"
-                    height="315"
+                    id="penangVideo"
                     controls
-                    style={{maxWidth: '560px'}}
+                    style={{
+                        maxWidth: '100%',
+                        width: '100%',
+                        height: 'auto',
+                        maxHeight: '315px',
+                    }}
                 >
-                    <source src="/categories/Snaptik.app_7348321236805586183.mp4" type="video/mp4"/>
+                    <source
+                        src="/categories/Snaptik.app_7348321236805586183.mp4"
+                        type="video/mp4"
+                    />
                     Your browser does not support the video tag.
                 </video>
             </div>
