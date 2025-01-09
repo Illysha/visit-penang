@@ -45,6 +45,9 @@ export const Hotels = () => {
                         <h3>Luxurious Retreats by the Sea: Shangri-La’s Rasa Sayang Resort & Spa</h3>
                         <p>Experience unparalleled luxury at Shangri-La’s Rasa Sayang Resort & Spa, nestled
                             along the golden sands of Batu Ferringhi. </p>
+                        <p>Shangri-La’s Rasa Sayang Resort & Spa, visit the <a
+                            href="https://www.shangri-la.com/en/penang/rasasayangresort/?WT.mc_id=RSR_220407_MY_SEM_BING_AON_BRANDDOMESTIC_RSA_TEXTLINK_EN_shangri-la%20penang%20package-StaycationOffers&&&&&gclsrc=3p.ds&msclkid=881f85f3c967153d21b4e28d0e0cfeca"
+                            target="_blank" rel="noopener noreferrer">Shangri-La’s Rasa Sayang Resort & Spa booking on Bing Maps</a>.</p>
                     </div>
                 </div>
 
@@ -107,6 +110,10 @@ export const Hotels = () => {
                             the Bayview Hotel Georgetown Penang combines
                             contemporary style with an enviable central setting.
                         </p>
+                        <p>Bayview hotel Georgetown, visit the <a
+                            href="https://www.bing.com/maps?osid=07ba60d2-5c1b-4113-b798-66a87d6ae01a&cp=5.421904~100.330796&lvl=16&pi=0&imgid=e6305e76-747d-4749-a4d2-16025b144c3e&v=2&sV=2&form=S00027"
+                            target="_blank" rel="noopener noreferrer">Bayview hotel Georgetown location on
+                            Bing Maps</a>.</p>
                     </div>
                 </div>
 
@@ -128,6 +135,10 @@ export const Hotels = () => {
                             nearly a 10-minute ride from Setia SPICE Convention Center.
                             The hotel offers Wi-Fi throughout the property.
                         </p>
+                        <p>Dr Hotel Penang, Bayan Lepas, visit the <a
+                            href="https://www.bing.com/maps?osid=f5cb3390-d2f2-4b86-930b-16b7ffa68a16&cp=5.304574~100.272067&lvl=16&pi=0&imgid=5cd16ec2-571b-4a7b-9d59-7d41c1b85413&v=2&sV=2&form=S00027"
+                            target="_blank" rel="noopener noreferrer">Dr Hotel Penang, Bayan Lepas location on
+                            Bing Maps</a>.</p>
                     </div>
                 </div>
             </div>

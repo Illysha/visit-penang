@@ -4,12 +4,12 @@ export const CultureHeritage = () => {
     return (
         <div style={{textAlign: 'center'}}>
             <h1>Arts & Heritage: “Step into Penang’s Rich Art & Cultural Heritage</h1>
-            <p style={{textAlign: 'justify'}}>
-                Experience the rich tapestry of Penang’s history, art, and culture.
-                Immerse yourself in the island’s heritage, where past and present blend harmoniously.
-                Explore traditional landmarks, vibrant art, and rich cultural stories that
+            <p>
+                Experience the rich tapestry of Penang’s history, art, and culture. </p>
+            <p> Immerse yourself in the island’s heritage, where past and present blend harmoniously. </p>
+            <p>Explore traditional landmarks, vibrant art, and rich cultural stories that
                 make Penang a place like no other
-        </p>
+            </p>
 
 
 
