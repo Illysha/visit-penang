@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import { FoodBeverages } from "./categories/FoodBeverages";
-import { TouristSpots } from "./categories/TouristSpots";
-import { CultureHeritage } from "./categories/CultureHeritage";
-import { Hotels } from "./categories/Hotels";
-import { AboutUs } from "./categories/AboutUs";
+import { FoodBeverages } from "./categories/FoodBeverages.js";
+import { TouristSpots } from "./categories/TouristSpots.js";
+import { CultureHeritage } from "./categories/CultureHeritage.js";
+import { Hotels } from "./categories/Hotels.js";
+import { AboutUs } from "./categories/AboutUs.js";
 import "./App.css";
 
 const App = () => {
@@ -21,36 +21,36 @@ const App = () => {
 
     // Function to handle navigation
     const loadCategory = (categoryId) => {
-        setCurrentCategory(categoryId);
+        if (categories[categoryId]) {
+            setCurrentCategory(categoryId);
+        } else {
+            setCurrentCategory(null); // Handle invalid category
+        }
     };
 
     return (
         <div>
-            <nav>
-                <div className="dropdown">
-                    <button className="dropdown-btn">Explore More</button>
-                    <div className="dropdown-content">
-                        {Object.keys(categories).map((key) => (
-                            <a
-                                key={key}
-                                href={`#${key}`}
-                                onClick={(e) => {
-                                    e.preventDefault();
-                                    loadCategory(key);
-                                }}
-                            >
-                                {categories[key].title}
-                            </a>
-                        ))}
-                    </div>
-                </div>
+            {/* Navigation bar as blocks */}
+            <nav className="nav-blocks">
+                {Object.keys(categories).map((key) => (
+                    <button
+                        key={key}
+                        className={`nav-block ${currentCategory === key ? "active" : ""}`}
+                        onClick={() => loadCategory(key)}
+                    >
+                        {categories[key].title}
+                    </button>
+                ))}
             </nav>
 
             {/* Render the current category's content */}
-            {categories[currentCategory]?.content || <p>Category not found.</p>}
+            <main>
+                {categories[currentCategory]?.content || <p>Category not found.</p>}
+            </main>
         </div>
     );
 };
 
 export default App;
+
 

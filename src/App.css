@@ -90,68 +90,44 @@ header p {
 
 
 
-/* Navigation Styling */
-nav {
+/* Navigation Block Styling */
+.nav-blocks {
     display: flex;
     justify-content: center;
-    background-color: transparent;
-    padding: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+    background-color: #ffffff;
 }
 
-/* Dropdown */
-.dropdown {
-    position: relative;
+.nav-block {
     display: inline-block;
-}
-
-/* Dropdown Button */
-.dropdown-btn {
-    background-color: white;
-    color: #000000;
-    padding: 10px 20px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-/* Hover effect for button */
-.dropdown-btn:hover {
-    background-color: transparent;
-}
-
-/* Dropdown Content (hidden by default) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    z-index: 1;
-}
-
-/* Show the dropdown content when hovering the button */
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-/* Dropdown Links */
-.dropdown-content a {
-    display: block;
-    padding: 10px 16px;
+    background-color: #f1f1f1;
     color: #333;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
+    padding: 15px 20px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    min-width: 120px;
 }
 
-/* Hover effect for links */
-.dropdown-content a:hover {
-    background-color: rgba(0, 0, 0, 0.05);
+.nav-block:hover {
+    background-color: #dcdcdc;
+    transform: scale(1.05);
 }
+
+.nav-block.active {
+    background-color: #45a049;
+    color: #ffffff;
+    border-color: #3b8c40;
+}
+
+
+
 
 /* Content Styling */
 h1 {
@@ -328,23 +304,9 @@ footer {
         text-align: center;
     }
 
-    .dropdown-content a {
-        font-size: 14px;
-        padding: 12px;
-    }
 }
 
 @media screen and (max-width: 768px) {
-    nav {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .dropdown-btn {
-        width: 100%;
-        padding: 15px;
-        text-align: center;
-    }
 
     .image-text-pair {
         flex-direction: column;
@@ -364,14 +326,6 @@ footer {
         font-size: 1.5rem;
     }
 
-    .dropdown-btn {
-        font-size: 14px;
-    }
-
-    .dropdown-content a {
-        font-size: 12px;
-        padding: 10px;
-    }
 
     .about-us-container h1 {
         font-size: 2em;
@@ -409,5 +363,20 @@ footer {
         min-height: 50vh; /* Further reduces height for very small screens */
         font-size: calc(6px + 2vmin); /* Scales font size down */
         padding: 10px; /* Reduces padding for better layout */
+    }
+}
+
+/* Responsive Navigation Blocks */
+@media (max-width: 768px) {
+    .nav-block {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-block {
+        font-size: 12px;
+        padding: 8px 10px;
     }
 }
