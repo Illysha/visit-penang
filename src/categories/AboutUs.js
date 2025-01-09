@@ -15,7 +15,7 @@ export const AboutUs = () => {
 
             <div className="about-image">
                 <img
-                    src="https://mypenang.gov.my/uploads/directory/493/images/logan-heritage.jpg" // Replace with actual image URL
+                    src="https://images.says.com/uploads/story_source/source_image/505597/fd75.jpg" // Replace with actual image URL
                     alt="Penang"
                     className="about-image-img"
                 />
