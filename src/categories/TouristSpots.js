@@ -16,26 +16,8 @@ export const TouristSpots = () => {
             {/* YouTube Video */}
             <div style={{textAlign: 'center', marginBottom: '30px'}}>
                 <h2>Watch: Explore Penang's Tourist Spots</h2>
-                <video
-                    id="penangVideo"
-                    controls
-                    muted
-                    autoPlay
-                    style={{
-                        width: '100%',
-                        height: 'auto',
-                        maxHeight: '315px',  // Keeps the video at a maximum height
-                        objectFit: 'contain', // Ensures proper scaling of video
-                    }}
-                    onError={(e) => {
-                        alert('Error loading video. Please check the file path or video format.');
-                        console.error('Video load error:', e);
-                    }}
-                >
-                    <source
-                        src="/Snaptik.app_7348321236805586183.mp4"
-                        type="video/mp4"
-                    />
+                <video controls muted autoPlay style={{width: '100%', maxHeight: '315px'}}>
+                    <source src="/Snaptik.app_7348321236805586183.mp4" type="video/mp4"/>
                     Your browser does not support the video tag.
                 </video>
             </div>

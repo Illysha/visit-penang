@@ -269,7 +269,7 @@ h1 {
 
 .about-image {
     display: flex;
-    align-items: end; /* Aligns text and image vertically */
+    align-items: center; /* Aligns text and image vertically */
     justify-content: flex-start; /* Aligns items to the left */
     gap: 20px;
     margin-top: 40px;
@@ -284,7 +284,7 @@ h1 {
 }
 
 .about-description {
-    max-width: 500px;
+    max-width: 800px;
     font-size: 1.1em;
     color: #444;
     text-align: left; /* Ensures text is aligned to the left */
