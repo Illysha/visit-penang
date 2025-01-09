@@ -19,11 +19,17 @@ export const TouristSpots = () => {
                 <video
                     id="penangVideo"
                     controls
+                    muted
+                    autoPlay
                     style={{
                         maxWidth: '100%',
                         width: '100%',
                         height: 'auto',
                         maxHeight: '315px',
+                    }}
+                    onError={(e) => {
+                        alert('Error loading video. Please check the file path or video format.');
+                        console.error('Video load error:', e);
                     }}
                 >
                     <source

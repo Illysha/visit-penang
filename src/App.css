@@ -124,7 +124,7 @@ nav a {
 nav button {
     background-color: transparent; /* Removes the white background */
     border: none; /* Removes the border if present */
-    color: white; /* Adjust the text color to contrast with the navbar background */
+    color: #000000; /* Adjust the text color to contrast with the navbar background */
     padding: 10px; /* Optional: Adjusts spacing */
     cursor: pointer; /* Adds a pointer cursor */
     text-decoration: underline; /* Adds underline to the text */
