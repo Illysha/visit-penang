@@ -22,10 +22,10 @@ export const TouristSpots = () => {
                     muted
                     autoPlay
                     style={{
-                        maxWidth: '100%',
                         width: '100%',
                         height: 'auto',
-                        maxHeight: '315px',
+                        maxHeight: '315px',  // Keeps the video at a maximum height
+                        objectFit: 'contain', // Ensures proper scaling of video
                     }}
                     onError={(e) => {
                         alert('Error loading video. Please check the file path or video format.');
