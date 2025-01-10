@@ -1,5 +1,5 @@
 import React from "react";
-import video from "./Snaptik.app_7403776440719723777.mp4";
+import video from "./Snaptik.app_7358668533133282577.mp4";
 
 export const CultureHeritage = () => {
     return (
@@ -14,7 +14,7 @@ export const CultureHeritage = () => {
 
 
 
-            {/* YouTube Video */}
+
             <div style={{textAlign: 'center', marginBottom: '30px'}}>
                 <h2>Watch: Explore Penang's Tourist Spots</h2>
                 <video width="750" height="500" controls>

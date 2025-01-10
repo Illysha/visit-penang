@@ -1,4 +1,5 @@
 import React from "react";
+import video from "./Snaptik.app_7334629997639945480.mp4";
 
 export const Hotels = () => {
     return (
@@ -12,19 +13,11 @@ export const Hotels = () => {
             </p>
 
 
-            {/* YouTube Video */}
             <div style={{textAlign: 'center', marginBottom: '30px'}}>
-                <h2>Watch: Best Hotels in Penang</h2>
-                <iframe
-                    width="100%"
-                    height="315"
-                    src="https://www.youtube.com/embed/RNbLVFG2pSc"
-                    title="YouTube video player"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                    style={{maxWidth: '560px'}}
-                ></iframe>
+                <h2>Watch: Explore Penang's Tourist Spots</h2>
+                <video width="750" height="500" controls>
+                    <source src={video} type="video/mp4"/>
+                </video>
             </div>
 
             {/* Dynamic Content Section with Image-Text Pairs */}
@@ -47,7 +40,8 @@ export const Hotels = () => {
                             along the golden sands of Batu Ferringhi. </p>
                         <p>Shangri-La’s Rasa Sayang Resort & Spa, visit the <a
                             href="https://www.shangri-la.com/en/penang/rasasayangresort/?WT.mc_id=RSR_220407_MY_SEM_BING_AON_BRANDDOMESTIC_RSA_TEXTLINK_EN_shangri-la%20penang%20package-StaycationOffers&&&&&gclsrc=3p.ds&msclkid=881f85f3c967153d21b4e28d0e0cfeca"
-                            target="_blank" rel="noopener noreferrer">Shangri-La’s Rasa Sayang Resort & Spa booking on Bing Maps</a>.</p>
+                            target="_blank" rel="noopener noreferrer">Shangri-La’s Rasa Sayang Resort & Spa booking on
+                            Bing Maps</a>.</p>
                     </div>
                 </div>
 
@@ -70,7 +64,8 @@ export const Hotels = () => {
                         </p>
                         <p>Charming Boutique Hotels: The Edison George Town and Seven Terraces, visit the <a
                             href="https://www.theedisonhotels.com/?msclkid=d9531073bbd21ae0461a770c609bd80a"
-                            target="_blank" rel="noopener noreferrer">Charming Boutique Hotels: The Edison George Town and Seven Terraces booking on
+                            target="_blank" rel="noopener noreferrer">Charming Boutique Hotels: The Edison George Town
+                            and Seven Terraces booking on
                             Bing Maps</a>.</p>
                     </div>
                 </div>
@@ -96,7 +91,8 @@ export const Hotels = () => {
                         </p>
                         <p>Unique Stays for Adventurers: Boulder Valley Glamping, visit the <a
                             href="https://bouldervalleyglamping.com.my/the-tent"
-                            target="_blank" rel="noopener noreferrer">Unique Stays for Adventurers: Boulder Valley Glamping booking on
+                            target="_blank" rel="noopener noreferrer">Unique Stays for Adventurers: Boulder Valley
+                            Glamping booking on
                             Bing Maps</a>.</p>
                     </div>
                 </div>
