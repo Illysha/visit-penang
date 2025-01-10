@@ -1,5 +1,5 @@
 import React from "react";
-import video from "public/Snaptik.app_7348321236805586183.mp4"
+import video from "src/categories/Snaptik.app_7348321236805586183.mp4"
 
 export const TouristSpots = () => {
     return (
