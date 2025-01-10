@@ -1,5 +1,5 @@
 import React from "react";
-import video from "./Snaptik.app_7358668533133282577.mp4";
+import video from "./video2.mp4";
 
 export const CultureHeritage = () => {
     return (

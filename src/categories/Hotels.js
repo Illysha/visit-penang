@@ -1,5 +1,5 @@
 import React from "react";
-import video from "./Snaptik.app_7334629997639945480.mp4";
+import video from "./video4.mp4";
 
 export const Hotels = () => {
     return (

@@ -1,7 +1,7 @@
 
 
 import React from "react";
-import video from "./Snaptik.app_7403776440719723777.mp4";
+import video from "./video1.mp4";
 
 export const FoodBeverages = () => {
     return (
