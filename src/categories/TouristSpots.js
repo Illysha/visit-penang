@@ -1,4 +1,5 @@
 import React from "react";
+import video from "./video.mp4"
 
 export const TouristSpots = () => {
     return (
@@ -16,27 +17,8 @@ export const TouristSpots = () => {
             {/* YouTube Video */}
             <div style={{textAlign: 'center', marginBottom: '30px'}}>
                 <h2>Watch: Explore Penang's Tourist Spots</h2>
-                <video
-                    id="penangVideo"
-                    controls
-                    muted
-                    autoPlay
-                    style={{
-                        maxWidth: '100%',
-                        width: '100%',
-                        height: 'auto',
-                        maxHeight: '315px',
-                    }}
-                    onError={(e) => {
-                        alert('Error loading video. Please check the file path or video format.');
-                        console.error('Video load error:', e);
-                    }}
-                >
-                    <source
-                        src="/video.mp4"
-                        type="video/mp4"
-                    />
-                    Your browser does not support the video tag.
+                <video width="750" height="500" controls>
+                    <source src={video} type="video/mp4"/>
                 </video>
             </div>
 
