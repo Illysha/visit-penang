@@ -1,4 +1,5 @@
 import React from "react";
+import video from "./Snaptik.app_7403776440719723777.mp4";
 
 export const CultureHeritage = () => {
     return (
@@ -15,17 +16,10 @@ export const CultureHeritage = () => {
 
             {/* YouTube Video */}
             <div style={{textAlign: 'center', marginBottom: '30px'}}>
-                <h2>Watch: Cultural Insights of Penang</h2>
-                <iframe
-                    width="100%"
-                    height="315"
-                    src="https://www.youtube.com/embed/MDbZhLQaC4w"
-                    title="YouTube video player"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                    style={{maxWidth: '560px'}}
-                ></iframe>
+                <h2>Watch: Explore Penang's Tourist Spots</h2>
+                <video width="750" height="500" controls>
+                    <source src={video} type="video/mp4"/>
+                </video>
             </div>
 
             {/* Dynamic Content Section with Image-Text Pairs */}

@@ -14,7 +14,7 @@ export const TouristSpots = () => {
             </p>
 
 
-            {/* YouTube Video */}
+
             <div style={{textAlign: 'center', marginBottom: '30px'}}>
                 <h2>Watch: Explore Penang's Tourist Spots</h2>
                 <video width="750" height="500" controls>
